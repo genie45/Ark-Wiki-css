@@ -56,7 +56,7 @@ table.wikitable{
   background: rgba(0, 0, 0, 0)
 }
 
-table.wikitable, table.wikitable.sortable.jquery-tablesorter th{
+table.wikitable th, table.wikitable.tr th, table.wikitable.sortable.jquery-tablesorter th{
   background: rgba(32, 28, 28, 0.95);
   color: #c2b9b9;
 }
