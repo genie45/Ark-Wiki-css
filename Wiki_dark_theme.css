@@ -1,0 +1,658 @@
+/*Aberration themed css */
+/*https://help.gamepedia.com/MediaWiki_CSS*/
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: local('FontAwesome'), local('FontAwesome'), url(/media/hydra/fonts/FontAwesome.otf) format('opentype');
+}
+
+div#content{
+  background-color: rgba(32, 28, 28, 0.95);
+  color: #c2b9b9;
+  border-color: #440263;
+}
+
+div#content #firstHeading{
+  color: #000000;
+  text-shadow: 1px 1px 15px rgba(68, 2, 99, 20);
+  font-weight: bold;
+}
+
+div#content h1, div#content h2, div#content h3, div#content h4, div#content h5, div#content h6{
+  color: #c2b9b9;
+}
+
+span.editsection{
+  color: #440263;
+}
+
+.toc, #toc{
+  background:#2c2c2c; 
+  border-color: #440263;
+}
+
+.tocnumber{
+  color: #c2b9b9;
+}
+
+div#content #toctitle h2{
+  background: rgba(0, 0, 0, 0);
+}
+
+.toctoggle, #toc .toctoggle{
+  color: #440263;
+}
+
+h1, h2, h3, h4, h5, h6{
+  border-bottom: 1px solid #440263;
+}
+
+hr{
+  color: #440263;
+}
+
+table.wikitable{
+  background: rgba(0, 0, 0, 0)
+}
+
+table.wikitable th, table.wikitable.sortable.jquery-tablesorter th{
+  background: rgba(32, 28, 28, 0.95);
+  color: #c2b9b9;
+}
+
+table.wikitable td{
+  background: rgba(48, 48, 48, 0.767);
+  color: #c2b9b9;
+}
+
+/*Icons need to be remade in a light color to show properly*/
+
+table.jquery-tablesorter th.headerSort{
+  background-image: url(up-and-down-arrow.png);/*Placeholder link*/
+  background-position: right-center;
+}
+
+table.jquery-tablesorter th.headerSortDown{
+  background-image: url(down-arrow.png);/*Placeholder link*/
+  background-position: right-center;
+}
+
+table.jquery-tablesorter th.headerSortUp{
+  background-image: url(up-arrow.png);/*Placeholder link*/
+  background-position: right-center;  
+}
+
+ul.gallery{
+  background: rgba(0, 0, 0, 0);
+}
+
+li.gallerybox{
+  background-color: rgba(0, 0, 0, 0.3)
+}
+
+div.gallerytext{
+    color: #c2b9b9
+}
+
+table .number {
+  text-align: right;
+}
+
+/* no external link icon for internal links */
+#content a.external[href^="http://ark.gamepedia.com"], #content a.external[href^="https://ark.gamepedia.com"], #content a.external[href^="//ark.gamepedia.com"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  padding-right: 0;
+}
+
+/* copy to clipboard */
+.copy-clipboard {
+  background-color: white;
+  font-family: Courier,monospace;
+  padding: 0.2em;
+}
+
+.copy-clipboard button {
+  padding: 0 0 0 1em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: FontAwesome;
+}
+
+/* Gamepedia fixes */
+.ghost { color: #666666; }
+
+/* link-spanner */
+.link-spanner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Allow limiting of which header levels are shown in a TOC;
+   <div class="toclimit-3">, for instance, will limit to
+   showing ==headings== and ===headings=== but no further
+   (as long as there are no =headings= on the page, which
+   there shouldn't be according to the MoS). */
+.toclimit-2 .toclevel-1 ul,
+.toclimit-3 .toclevel-2 ul,
+.toclimit-4 .toclevel-3 ul,
+.toclimit-5 .toclevel-4 ul,
+.toclimit-6 .toclevel-5 ul,
+.toclimit-7 .toclevel-6 ul {
+  display: none;
+}
+
+/* Ambox style */
+.ambox {
+  max-width: 80%;
+  margin: 1em auto;
+  background-color: #222020;
+
+  border: 1px solid #999999;
+  border-collapse: collapse;
+  border-left-style: solid;
+  border-left-width: 10px;
+}
+
+.ambox-icon {
+  width: 60px;
+  padding: 2px 0 2px 0.5em;
+  text-align: center;
+}
+
+.ambox-DLC-icon {
+  width: 115px;
+  padding: 2px 0 2px 0.5em;
+  text-align: center;
+}
+
+.ambox-type {
+  padding: 0.25em 0.5em;
+}
+
+.ambox-info {
+  margin-top: 0.5em; font-size: smaller;
+}
+
+.ambox-blue { border-left-color: #0000aa; }
+.ambox-gray { border-left-color: #555555; }
+.ambox-green { border-left-color: #13473f; }
+.ambox-purple { border-left-color: #a655b2; }
+.ambox-red { border-left-color: #aa0000; }
+.ambox-yellow { border-left-color: #aaaa00; }
+
+/* Infobox style */
+.infobox {
+  float: right;
+  width: 23em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  padding: 2px;
+  background-color: #111111;
+  border: 1px solid #ffffff;
+}
+
+.infobox-table {
+  width: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.infobox-header {
+  padding: 0.1em;
+  color: #ffffff;
+  background-color: #13473f;
+  font-size: 130%;
+  text-align: center;
+}
+
+.infobox-section {
+  background-color: #dddddd;
+}
+
+.infobox-centered {
+  text-align: center;
+}
+
+.infobox-row {
+  vertical-align: top;
+}
+
+.infobox-row-name {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.infobox-spacer {
+  height: 0.5em;
+}
+
+
+
+/* -------------------------- */
+/* "ARKITEXURE"-STYLE INFOBOX */
+/* -------------------------- */
+
+/* arkitexure rounded borders */
+.info-arkitex {
+  border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; -icab-border-radius: 10px; -o-border-radius: 10px; float:center;
+}
+.info-arkitex-left {
+  border-radius: 10px 0 0 10px; -moz-border-radius: 10px 0 0 10px; -webkit-border-radius: 10px 0 0 10px; -khtml-border-radius: 10px 0 0 10px; -icab-border-radius: 10px 0 0 10px; -o-border-radius: 10px 0 0 10px; float:left;
+}
+.info-arkitex-right {
+  border-radius: 0 10px 10px 0; -moz-border-radius: 0 10px 10px 0; -webkit-border-radius: 0 10px 10px 0; -khtml-border-radius: 0 10px 10px 0; -icab-border-radius: 0 10px 10px 0; -o-border-radius: 0 10px 10px 0; float:right;
+}
+
+/* arkitexure full container */
+.info-framework {
+  float:right; min-width:410px; width:410px; max-width:410px; background:#68a090; border:2px solid #44685e; margin:0 0 8px 8px; padding:5px 5px 0 5px; overflow:hidden;
+}
+
+/* arkitexure individual module (sub-container) */
+.info-module {
+  display:inline-block; min-width:402px; width:402px; max-width:402px; text-align:right; background:#9dc1b7; margin:0 0 0/*5px*/ 0; padding:4px 4px 0 4px; overflow:hidden;
+}
+
+/* arkitexure "sub-module" component */
+.info-unit {
+  display:inline-block; width:402px; min-width:402px; max-width:402px; text-align:center; margin:0 0 0/*4px*/ 0; padding:0; background:#9dc1b7; overflow:hidden;
+}
+.info-unit-row {
+  display:flex; flex-direction:row; align-items:top; min-width:402px; width:402px; max-width:402px; padding:0; margin:0; overflow:hidden;
+}
+.info-unit-comment { display:flex; align-items:left; font-size:11px !important; }
+.info-unit-caption { text-align:center !important; padding:0 8px 0 8px !important; background:none !important; }
+
+/* arkitexure cell, intended for one total column, 100% width */
+.info-X1-100 {
+  display:inline-block; min-width:396px; width:396px; max-width:396px; margin:1px; padding:5px 2px 5px 2px; background:#fff;
+}
+.info-masthead { display:flex !important; align-items:center; justify-content:center; min-height:38px; height:auto; font-size:24px; }
+.info-column { display:flex !important; flex-direction:column; align-items:center; }
+.info-sound-div { margin:5px 0 -5px 0; }
+
+
+/* arkitexure cell, intended for two total columns, 25% width */
+.info-X2-25 {
+  display:flex; align-items:center; justify-content:center; min-width:92px; width:92px; max-width:92px; min-height:40px; height:40px; max-height:40px; margin:1px; padding:5px 8px 5px 8px; background:#edf3eb;
+}
+/* arkitexure cell, intended for two total columns, 75% width */
+.info-X2-75 {
+  display:flex; align-items:center; justify-content:center; min-width:274px; width:274px; max-width:274px; margin:1px; padding:5px 8px 5px 8px; background:#fff; min-height:40px; height:auto; font-size:24px;
+}
+
+/* arkitexure cell, intended for two total columns, 40% width */
+.info-X2-40 {
+  display:inline-block; min-width:144px; width:144px; max-width:144px; min-height:24px; height:24px; max-height:24px; margin:1px; padding:5px 8px 5px 8px; background:#edf3eb; text-align:right;
+}
+/* arkitexure cell, intended for two total columns, 60% width */
+.info-X2-60 {
+  display:inline-block; min-width:222px; width:222px; max-width:222px; min-height:24px; height:auto; margin:1px; padding:5px 8px 5px 8px; background:#fff; text-align:left;
+}
+
+/* arkitexure cell, intended for three total columns, 33% width */
+.info-X3-33 {
+  display:inline-block; min-width:116px; width:116px; max-width:116px; min-height:24px; height:auto; margin:1px; padding:5px 8px 5px 8px; background:#fff; text-align:center;
+}
+
+/* END "ARKITEXURE"-STYLE INFOBOX */
+
+
+
+/* Creature Region Map */
+.cr-region-map-map img{
+  filter: sepia(60%);
+}
+.cr-region-map-marker{
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  border-radius: 2px;
+}
+.cr-region-map-markercave{
+  border: 1px solid black;
+}
+
+.stripes {
+ background: repeating-linear-gradient(
+  45deg,
+  transparent,
+  transparent 5px,
+  rgba(0, 0, 0, 0.3) 5px,
+  rgba(0, 0, 0, 0.3) 10px
+  );
+}
+
+.cr-region-map-very-common{
+  -webkit-filter: hue-rotate(120deg) brightness(400%);
+  filter: hue-rotate(120deg) brightness(400%);
+}
+.cr-region-map-common{
+  -webkit-filter: hue-rotate(78deg) brightness(400%);
+  filter: hue-rotate(78deg) brightness(400%);
+}
+.cr-region-map-uncommon{
+  -webkit-filter: hue-rotate(60deg) brightness(400%);
+  filter: hue-rotate(60deg) brightness(400%);
+}
+.cr-region-map-very-uncommon{
+  -webkit-filter: hue-rotate(48deg) brightness(400%);
+  filter: hue-rotate(48deg) brightness(400%);
+}
+.cr-region-map-rare{
+  -webkit-filter: hue-rotate(24deg) brightness(400%);
+  filter: hue-rotate(24deg) brightness(400%);
+}
+.cr-region-map-very-rare{
+  -webkit-filter: hue-rotate(24deg) brightness(400%);
+  filter: hue-rotate(24deg) brightness(400%);    
+}
+
+.cr-region-map-cl-very-common{
+  background-color: hsl(120,100%,60%);
+}
+.cr-region-map-cl-common{
+  background-color: hsl(78,100%,60%);
+}
+.cr-region-map-cl-uncommon{
+  background-color: hsl(60,100%,63.3%);
+}
+.cr-region-map-cl-very-uncommon{
+  background-color: hsl(48,100%,63.3%);
+}
+.cr-region-map-cl-rare{
+  background-color: hsl(30,100%,56.7%);
+}
+.cr-region-map-cl-very-rare{
+  background-color: hsl(0,100%,56.7%);
+}
+.cr-region-map-cl-unknown{
+  background-color: #ccc;
+}
+
+
+/* Navbox */
+.navbox-header{
+  font-weight: bold;
+  font-size: 120%;
+  color: #c4ded6;
+}
+
+.navbox-header a:link{
+  color: #70C0B6;
+}
+
+.navbox th{
+  width: 1%;
+  white-space: nowrap;
+}
+
+/* Template:Navbar */
+.va-navbar{
+  position:absolute;
+  padding-left:.5em;
+}
+
+/* NavBox Creatures */
+.navbox-creature-item{
+  display: inline-block;
+  margin: 2px;
+  overflow: hidden;
+  vertical-align:middle;
+  width:48px;
+  text-align:center
+}
+
+.navbox-creature-item div{
+  background-color: white;
+  border-radius: 100px;
+}
+
+
+/* Patch Notes */
+.PN-normal{
+  background: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  width: 35px;
+}
+
+
+/* Tabber */
+ul.tabbernav li a:link {
+   font-size: 12px !important;
+   border-radius: 10px 10px 0px 0px;
+   background-color: #ffffe0; /* Old browsers */
+   background: -moz-linear-gradient(#ffffe0, transparent) !important; /* FF3.6-15 */
+   background: -webkit-linear-gradient(#ffffe0, transparent) !important; /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(#ffffe0, transparent) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffe0', endColorstr='#fff',GradientType=0 ) !important; /* IE6-9 */
+   color: #397d75 !important;
+}
+ul.tabbernav li a:hover {
+   background: #ddd !important;
+   color: #666666 !important;
+   border-color: #44685e;
+}
+ul.tabbernav li.tabberactive a {
+   font-size: 14px !important;
+   color: #ffffff !important;
+   text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
+   border-color: #44685e;
+   border-bottom: 1px solid #9dc1b7 !important;
+   background: -moz-linear-gradient(#68a090, #9dc1b7) !important; /* FF3.6-15 */
+   background: -webkit-linear-gradient(#68a090, #9dc1b7) !important; /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(#68a090, #9dc1b7) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68a090', endColorstr='#9dc1b7',GradientType=0 ) !important; /* IE6-9 */
+}
+ul.tabbernav li {
+  display:inline-block;
+}
+
+
+/* Template:Photo */
+.photo-nav, .photo-nav a:link, .photo-nav a:visited{
+  color: #fff !important;
+  font-weight:bold;
+  text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
+}
+
+.photo-gallery, .photo-gallery a:link, .photo-gallery a:visited{
+  color: #000 !important;
+}
+
+.photo-gallery img{
+  -webkit-filter: opacity(.8);
+  filter: opacity(.8);
+  opacity (0.9);
+}
+
+.photo-gallery img:hover{
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+  opacity(1);
+}
+
+.photo-nav li:hover img{
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+
+/* Tiles (Template:Tile) */
+.tile_container {
+  margin: 4px 0px 8px 8px;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.tile_container:hover{
+  background: #fff;
+}
+
+.tile_inner {
+  position:relative;
+  top:6px;
+  left:0;
+  font-size:14px;
+  font-weight:bold;
+}
+
+
+/* Survivor Profile Table (Template:DTile) */
+.dtile a:link, .dtile a:visited, .dtile_dlc a:link, .dtile_dlc a:visited{
+  color: #a8b9ba !important;
+}
+
+.dtile img {
+  -webkit-filter: 
+      invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
+  filter: 
+      invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
+}
+
+.dtile_dlc img {
+  -webkit-filter: 
+      invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
+  filter: 
+      invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+
+/* Keyboard-Keys (Template:Key) */
+kbd {
+  font-family: monospace,Courier;
+  background: linear-gradient(to right, #eaeaea 0%,#cecece 100%);
+  border: 1px solid;
+  border-color: #DDD #AAA #888 #CCC;
+  border-radius: 2px;
+  border-width: 1px 2px 3px 2px;
+  padding: 0 .2em 0 .3em;
+  text-shadow: 0 1px rgba(255,255,255,.5);
+  white-space: nowrap;
+}
+
+kbd:after{
+  content:"";
+  border-right: 0.1em solid #eee;
+  position: relative;
+  right: -0.2em;
+}
+
+/* Survival of the Fittest */
+.sotf-team {
+  width: 20%;
+  padding: 1em 1em 0 1em !important;
+  background-color: #9cee93;
+}
+
+.sotf-team-left-dead,
+.sotf-team-right-dead {
+  background-color: #eeed93;
+}
+
+.sotf-team-both-dead {
+  background-color: #e3a4a4;
+}
+
+.sotf-team-both-dead .sotf-image-left,
+.sotf-team-both-dead .sotf-image-right,
+.sotf-team-left-dead .sotf-image-left,
+.sotf-team-right-dead .sotf-image-right {
+  opacity: 0.3;
+}
+
+.sotf-team-both-dead a:first-child,
+.sotf-team-both-dead a:last-child,
+.sotf-team-left-dead a:first-child,
+.sotf-team-right-dead a:last-child {
+  text-decoration: line-through;
+}
+
+.sotf-image-left,
+.sotf-image-right {
+  display: inline-block;
+  width: 74px;
+  height: 74px;
+  border: 1px solid #000000;
+}
+
+.sotf-image-left { background-position: left center; }
+.sotf-image-right { background-position: right center; }
+
+.sotf-team01 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/a/a3/SOTF-mrmoonshouse-sattelizergames.png"); }
+.sotf-team02 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/4/46/SOTF-silentsentry-wishfuiiy.png"); }
+.sotf-team03 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/e/e8/SOTF-esgame-pedrosaltana.png"); }
+.sotf-team04 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/a/ab/SOTF-crasskity-darkness.png"); }
+.sotf-team05 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/9/9d/SOTF-criken-madmorph.png"); }
+.sotf-team06 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/5/57/SOTF-seriousgaming-twoangry.png"); }
+.sotf-team07 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/6/6a/SOTF-pokket-selvek.png"); }
+.sotf-team08 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/6/68/SOTF-bikeman-jonsandman.png"); }
+.sotf-team09 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/3/3d/SOTF-devildog-famou5.png"); }
+.sotf-team10 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/8/80/SOTF-joefudge-sp00n.png"); }
+.sotf-team11 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/b/b8/SOTF-daftb-sixmacs.png"); }
+.sotf-team12 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/5/5b/SOTF-rhino-tangent.png"); }
+.sotf-team13 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/9/96/SOTF-echoics-lirik.png"); }
+.sotf-team14 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/c/cc/SOTF-kongphan-sparrowj.png"); }
+.sotf-team15 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/e/ef/SOTF-shroomz-sl1pg8r.png"); }
+.sotf-team16 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/6/69/SOTF-blizzehd-timmac.png"); }
+.sotf-team17 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/0/00/SOTF-iamsp00n-shannanina.png"); }
+.sotf-team18 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/0/0f/SOTF-apolloz-darkd.png"); }
+.sotf-team19 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/7/7d/SOTF-letsmake-xoves.png"); }
+.sotf-team20 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/a/a3/SOTF-fairlighte-grimmy.png"); }
+.sotf-team21 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/4/4e/SOTF-commander-ragesage.png"); }
+.sotf-team22 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/b/bb/SOTF-jamal-shortyg.png"); }
+.sotf-team23 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/a/aa/SOTF-a51-bedbanana.png"); }
+.sotf-team24 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/9/97/SOTF-cohh-oolala.png"); }
+.sotf-team25 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/e/e2/SOTF-jackf-reno.png"); }
+.sotf-team26 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/1/18/SOTF-shamrok-snipernamedg.png"); }
+.sotf-team27 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/5/56/SOTF-herc-jam.png"); }
+.sotf-team28 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/8/8e/SOTF-starsnipe-tessa.png"); }
+.sotf-team29 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/6/62/SOTF-quan-shyt.png"); }
+.sotf-team30 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/2/2a/SOTF-entak-thad.png"); }
+.sotf-team31 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/0/07/SOTF-kiwion-vaderrp.png"); }
+.sotf-team32 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/7/75/SOTF-ello-sacriel.png"); }
+.sotf-team33 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/c/c7/SOTF-lowco-sadaplays.png"); }
+.sotf-team34 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/9/9d/SOTF-kdwolf-puhdado.png"); }
+.sotf-team35 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/d/dd/SOTF-illamg-hayli.png"); }
+
+.tournamentlive {
+background-color: #9cee93;
+}
+
+.tournamentdead {
+background-color: #e3a4a4;
+text-decoration: line-through;
+}
+
+/* fake <h2> - looks identical but no edit link and doesn't show up in the ToC */
+.fakeh2 {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  margin-top: 1em;
+  line-height: 1.3;
+  color: #000;
+  font-weight: normal;
+  margin-bottom: 0.25em;
+  padding: 0;
+  border-bottom: 1px solid #303030;
+}
