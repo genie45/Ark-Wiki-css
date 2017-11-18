@@ -206,7 +206,9 @@ div#p-cactions h3.p-cactions-label div.menu{
 
 
 
-
+div.fpmidsections div.fpsection3 div.fpbox center div.twitter-timeline-wrapper{
+  background-image: none !important;
+}
 
 @font-face {
   font-family: 'FontAwesome';
