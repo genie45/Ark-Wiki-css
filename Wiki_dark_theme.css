@@ -102,47 +102,47 @@ div.vectorTabs ul li {
 div.vectorTabs ul li.selected {
   background-color: transparent;
   background-image: none;
-  color: #ffffff;
+  color: #c2b9b9;
 }
 
 div.vectorTabs ul li span {
   background-image: none;
   background-color: transparent;
-  color: #ffffff;
+  color: #c2b9b9;
   font-weight: bold;
 }
 
 div.vectorTabs ul li.selected span {
   background-image: none;
   background-color: transparent;
-  color: #ffffff;
+  color: #c2b9b9;
   font-weight: bold;
 }
 
 div.vectorTabs li span a {
   background-image: none;
-  color: #ffffff;
+  color: #c2b9b9;
 }
 
 div.vectorTabs span a:visited {
-  color: #ffffff;
+  color: #c2b9b9;
 }
 
 div.vectorTabs li span a:hover, div.vectorTabs span a:visited:hover {
-  color: #ffffff;
+  color: #c2b9b9;
 }
 
 div.vectorTabs li.selected span a {
   background-color: transparent;
-  color: #ffffff !important;
+  color: #c2b9b9 !important;
 }
 
 div.vectorTabs li.new span a:visited {
-  color: #ffffff;
+  color: #c2b9b9;
 }
 
 div.vectorTabs li.new span a:hover, div.vectorTabs li.new span a:visited:hover {
-  color: #ffffff;
+  color: #c2b9b9;
 }
 
 div.vectorMenu h5 a {
@@ -160,7 +160,7 @@ div#p-cactions div.menu ul{
 }
 
 div#p-cactions div.menu ul li a {
-  background: rgba(32, 28, 28, 1);;
+  background: rgba(32, 28, 28, 1);
   color: #c2b9b9;
 }
 
@@ -173,16 +173,36 @@ div#p-cactions div.menu ul li a:hover, div#p-cactions div.menu ul li a:visited:h
 }
 
 div#mw-head div.vectorMenu h4 {
-  color: #FFFFFF;
+  color: #c2b9b9;
   font-weight: bold;
 }
 
 div.vectorMenu ul {
-  background: #000000;
-  border: 1px solid #ffffff;
+  background: rgba(32, 28, 28, 1);
+  border: 1px solid #440263;
 }
 
+div#p-sharing-label {
+  background: none;
+  color:#c2b9b9;
+}
 
+div#p-sharing-label div.menu{
+  background-color: rgba(32, 28, 28, 1);
+  color: #c2b9b9;
+  border: 1px solid #440263
+}
+
+div#p-cactions h3.p-cactions-label{
+  background: none;
+  color:#c2b9b9;
+}
+
+div#p-cactions h3.p-cactions-label div.menu{
+  background-color: rgba(32, 28, 28, 1);
+  color: #c2b9b9;
+  border: 1px solid #440263
+}
 
 
 
