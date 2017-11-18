@@ -1,6 +1,192 @@
 /*Aberration themed css */
 /*https://help.gamepedia.com/MediaWiki_CSS*/
 
+/* For elements which only display in the mobile view */
+.mobileonly {
+  display: none;
+}
+
+/* Hide main page header */
+body.page-ARK_Survival_Evolved_Wiki h1.firstHeading {
+  display:none;
+}
+
+/* MsUpload color fixes */
+#upload-list .file {
+background-color: #353535;
+border-top: #333;
+border-bottom: #444;
+}
+
+#upload-list .file .file-title,
+#upload-list .file .file-size,
+#upload-list .file .file-warning {
+color: #E0E0E0;
+}
+
+#upload-list .file a {
+  color: #add8e6;
+}
+
+#upload-list .file .small-warn {
+  background: url("//test.gamepedia.com/extensions/MsUpload/images/msu_error-small.png") no-repeat scroll 0 center rgba(255, 246, 191, 0.2);
+}
+
+/* Framework */
+body {
+  background-attachment: fixed;
+  background-color: rgb(33, 26, 36);
+  background-image: url(//ark.gamepedia.com/media/ark.gamepedia.com/c/c8/AB_9.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+div#pageWrapper {
+  margin-right: 10px;
+}
+
+div#mw-page-base {
+  background: rgba(0, 0, 0, 0.5) !important;    
+}
+
+div#mw-head-base {
+  background: transparent !important; 
+  border: 0px solid #440263;
+  bottom: 0;
+  height: 40px;
+}
+
+/* Adds bulletpoints styled after links to all lists on the wiki, replaces the default, gauche blue of the Mediawiki, that's so drab and ugly, mon Dieu! */
+
+ul {
+  list-style-type: disc;
+  list-style-image: url(//hydra-media.cursecdn.com/ark.gamepedia.com/7/75/Bulletpoint_purple.png);
+  /*list-style-image: url(//hydra-media.cursecdn.com/ark.gamepedia.com/7/75/Bulletpoint_purple.png) !ie;*/
+  }
+
+/**************************
+/* Article navigation bar *
+/**************************/
+#right-navigation {
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+#left-navigation {
+  left: 11em;
+  margin-top: 1em;
+}
+
+div.vectorMenu h3 a {
+background-image: none;
+}
+
+div.vectorTabs {
+  background-image: none;
+}
+
+div.vectorTabs span {
+  background-image: none;
+}
+
+div.vectorTabs ul {
+  background-image: none;
+}
+
+div.vectorTabs ul li {
+  background-color: transparent;
+  background-image: none;
+  color: #000000;
+}
+
+div.vectorTabs ul li.selected {
+  background-color: transparent;
+  background-image: none;
+  color: #ffffff;
+}
+
+div.vectorTabs ul li span {
+  background-image: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+div.vectorTabs ul li.selected span {
+  background-image: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+div.vectorTabs li span a {
+  background-image: none;
+  color: #ffffff;
+}
+
+div.vectorTabs span a:visited {
+  color: #ffffff;
+}
+
+div.vectorTabs li span a:hover, div.vectorTabs span a:visited:hover {
+  color: #ffffff;
+}
+
+div.vectorTabs li.selected span a {
+  background-color: transparent;
+  color: #ffffff !important;
+}
+
+div.vectorTabs li.new span a:visited {
+  color: #ffffff;
+}
+
+div.vectorTabs li.new span a:hover, div.vectorTabs li.new span a:visited:hover {
+  color: #ffffff;
+}
+
+div.vectorMenu h5 a {
+  background-image: none;
+}
+
+div.vectorMenu:hover, div.menu, div.vectorMenu div.menuForceShow {
+  display: block;
+}
+
+div#p-cactions div.menu ul{
+  border: 1px solid #440263;
+  color: #c2b9b9;
+  background-color: rgba(32, 28, 28, 1);
+}
+
+div#p-cactions div.menu ul li a {
+  background: rgba(32, 28, 28, 1);;
+  color: #c2b9b9;
+}
+
+div#p-cactions div.menu ul li a:visited {
+  color: #666;
+}
+
+div#p-cactions div.menu ul li a:hover, div#p-cactions div.menu ul li a:visited:hover {
+  display: block;
+}
+
+div#mw-head div.vectorMenu h4 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+div.vectorMenu ul {
+  background: #000000;
+  border: 1px solid #ffffff;
+}
+
+
+
+
+
+
 
 @font-face {
   font-family: 'FontAwesome';
@@ -14,7 +200,7 @@ div#content{
 }
 
 div#content #firstHeading{
-  color: #000000;
+  color: #9000c9;
   text-shadow: 1px 1px 15px rgba(68, 2, 99, 20);
   font-weight: bold;
 }
@@ -56,7 +242,7 @@ table.wikitable{
   background: rgba(0, 0, 0, 0)
 }
 
-table.wikitable th, table.wikitable.tr th, table.wikitable.sortable.jquery-tablesorter th{
+table.wikitable th, table.wikitable * tr th, table.wikitable.sortable.jquery-tablesorter th{
   background: rgba(32, 28, 28, 0.95);
   color: #c2b9b9;
 }
@@ -95,7 +281,602 @@ div.gallerytext{
     color: #c2b9b9
 }
 
+div.thumbinner{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: #440263;
+}
 
+html .thumbimage{
+    background: rgba(0, 0, 0, 0);
+    border: #000000;
+}
+
+.thumbcaption{
+    color: #c2b9b9;
+}
+
+.fpbox{
+    color: #c2b9b9;
+    border-color: #440263;
+}
+
+
+
+
+
+
+/*=======================================================================================================*/
+
+
+/* Sidebar */
+div#mw-panel div.portal, 
+div#mw-panel div.portal div.body {
+  background-image: none;
+}
+
+div#mw-panel div.portal h3,
+#mw-panel.collapsible-nav .portal h3 a,
+#mw-panel.collapsible-nav .portal h3 a:visited,
+#mw-panel.collapsible-nav div.portal h3 a,
+#mw-panel.collapsible-nav div.portal h3 a:visited,
+#mw-panel.collapsible-nav .portal.collapsed h3 a,
+#mw-panel.collapsible-nav .portal.collapsed h3 a:visited {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#mw-panel.collapsible-nav .portal.collapsed h3 {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH3wQBEikUI775dwAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAT0lEQVQ4y9WTUQrAIAxDE9H7H3jC2wnqxKqw/OeRpq0BZVSU1FEAOxKwYwRs11QHwBNBpkuMIPfWaLsBfQkQmSWpzvhH5/6VwJkO/I9negFpGhkjDUKRdAAAAABJRU5ErkJggg==");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+#mw-panel.collapsible-nav .portal h3 {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH3wQBEiskN1GrWQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAT0lEQVQ4y+2TOwrAMAxD9Upy/wsH1KlQQlRcskabjSX/sa0dXNrEEZDaZFdXQqqAP+TUAlVynAHQK74oYHu8CUC3PZbJvk4ZaI9gjDm/oBt1WxYtuhHX/wAAAABJRU5ErkJggg==");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+div#mw-panel div.portal div.body ul li a,
+div#mw-panel div.portal div.body ul li a:link,
+div#mw-panel div.portal div.body ul li a:visited, 
+div#mw-panel div.portal div.body ul li a:hover {
+  color: #ffffff;
+}
+
+/* social media add-on fix */
+div#mw-panel div#p-socialProfiles.portal .body {
+  margin: auto;
+}
+
+.socialSidebar {
+  width: auto;
+  max-width: 100%;
+}
+
+/* Sliver Fix */
+
+div#mw-head div.vectorMenu h3 {
+  background-image: none;
+}
+
+div.vectorMenu h3 span {
+  padding-top: 1.3em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Content */
+div#content {
+  background: rgba(255, 255, 255, 0.8);
+  color: #111111;
+  border: 1px solid #1a1a1a;
+  box-shadow: rgba(26, 26, 26, 1) 0 0.1em 0.75em;
+  margin-top: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #303030;
+}
+
+h1, h2 {
+  border-bottom: 1px solid #303030;
+}
+
+h3, h4, h5, h6 {
+  border-bottom: 0px solid #dddad3;
+}
+
+.catlinks {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
+}
+
+.mw-warning {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+#toc, .toc, .mw-warning {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
+  font-size: 95%;
+  padding: 5px;
+}
+
+/***************
+/* Link styles *
+/***************/
+a {
+  color: #397d75;
+}
+
+div#content a:visited, a:visited {
+  color: #397d75;
+}
+
+a:hover, div#content a:visited:hover, a:visited:hover {
+  color: #397d75;
+}
+
+div#content a.extiw, div#content a.external {
+  color: #397d75;
+}
+
+div#content a.extiw:visited, div#content a.external:visited {
+  color: #397d75;
+}
+
+div#content a.extiw:hover, div#content a.external:hover, div#content a.extiw:visited:hover, div#content a.external:visited:hover {
+  color: #397d75;
+}
+
+a:active {
+  color: #397d75;
+}
+
+/*****************
+/* Footer styles *
+/*****************/
+div#footer {
+  background-image: none;
+}
+
+div#footer ul li {
+  color: #ffffff;
+}
+
+div#footer a {
+  color: #d4d5b8;
+  text-shadow: 1px 1px #000000;
+}
+
+div#footer a:hover {
+  color: #397d75;
+}
+
+/* Wiki editor fixes */
+.wikiEditor-ui {
+  background: rgba(0, 0, 0, 0);
+  border: medium none;
+}
+
+.wikiEditor-ui .wikiEditor-ui-view {
+  border-bottom: medium none;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-top : medium none;
+}
+
+div.wikiEditor-ui-buttons {
+  background-color: rgba(0, 0, 0, 0);
+  border-top: medium none;
+  margin-right: 5px;
+}
+
+div.wikiEditor-ui-controls {
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs {
+  background-color: #28333f;
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs div {
+  background-color: #28333f;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs div a {
+   background: #28333f;
+   color: #c0c0c0;
+}
+
+.wikiEditor-ui-tabs div.current {
+  background-color: #28333f;
+  border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs div.current a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.wikiEditor-ui .wikiEditor-ui-top {
+  border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-toolbar {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-ui-toolbar .group {
+  border-right: 1px solid #000000;
+}
+
+.wikiEditor-ui-toolbar .group-search {
+  border-left: 1px solid #000000;
+  border-right: none;
+}
+
+.wikiEditor-ui-toolbar .group .label {
+  color: #000000;
+}
+
+.tab {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-ui-toolbar .tabs span.tab a,
+.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+  color: #000000;
+}
+
+.wikiEditor-ui-toolbar .tabs span.tab a.current,
+.wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+  color: #000000;
+}
+
+.wikiEditor-ui-toolbar .group .tool-select .label {
+  color: #000000;
+}
+
+.wikiEditor-ui-toolbar .sections .section {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid #000000;
+}
+
+.wikiEditor-ui-toolbar .booklet .index div {
+  color: #efefef;
+}
+
+.wikiEditor-ui-toolbar .booklet .index .current {
+  background-color: rgba(0, 0, 0, 0);
+  color: #000000;
+}
+
+.wikiEditor-ui-toolbar .booklet .pages {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-ui-toolbar .page-characters div span {
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.wikiEditor-ui-toolbar .page-characters div span:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #000000;
+  color: #efefef;
+}
+
+.wikiEditor-ui-toolbar .page-table td {
+  border-top: 1px solid #000000;
+  color: #000000;
+}
+
+.wikiEditor-preview-loading {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-preview-contents {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: -moz-use-text-color #000000 #000000;
+  border-image: none;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+}
+
+.editOptions {  
+  background-color: rgba(0, 0, 0, 0);
+  border-color: -moz-use-text-color #000000 #000000;
+  border-image: none;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+}
+
+/* Page history */
+#pagehistory li {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 3px;
+}
+
+#pagehistory li.selected {
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: none;
+  border: 1px dashed #aaaaaa;
+  padding: 3px;
+}
+
+table.diff {
+  background: transparent;
+}
+
+td.diff-context {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-color: #666666;
+  color: #000000;
+}
+
+td.diff-deletedline {
+  background-color: #FFE49C;
+  border-color: #FFE49C;
+  color: #000000;
+}
+
+td.diff-addedline {
+  background-color: #A3D3FF;
+  border-color: #A3D3FF;
+  color: #000000;
+}
+
+/* Preferences */
+.client-js #preftoc {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0px;
+}
+
+.client-js #preftoc,
+.client-js #preftoc li,  
+.client-js #preferences, 
+.client-js #preftoc li a {
+  background-image: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #666666;
+}
+
+.client-js #preftoc li:first-child {
+  margin-bottom: 4px;
+  margin-left: 5px;
+}
+
+.client-js #preftoc li.selected a {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: none;
+  border-color: #aaaaaa #aaaaaa rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  color: #000000;
+}
+
+.client-js #preferences {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #aaaaaa;
+}
+
+.client-js #preferences fieldset {
+  border-color: #aaaaaa;
+}
+
+/*********************
+/* Front page styles *
+/*********************/
+.fpmain {
+width: 100%;
+overflow: hidden;
+z-index: 1;
+}
+
+.fpbanner {
+border: 1px solid #82a8af;
+box-shadow: rgba(25, 35, 41, 1) 0 0.1em 0.5em;
+background: rgba( 0, 0, 0, .2 );
+color: #000000;
+margin: 0 5px 5px 5px;
+padding: 5px;
+min-height: 80px;
+}
+
+.fpbannertable {
+display: table;
+border: none;
+background: transparent;
+width: 100%; 
+min-height: 75px;
+margin: 0;
+padding: 5px;
+}
+
+.fpbannercell {
+display: table-cell; 
+text-align: center; 
+vertical-align: middle;
+}
+
+.fpbannerblock {
+border: none;
+color: #ffffff;
+font-weight: bold;
+text-shadow: 0 0 8px rgba(255, 255, 255, 0.75);
+font-size: 132%;
+width: 100%;
+margin: 0 0 10px 0;
+padding: 0 0 5px 0;
+}
+
+.fpmidsections {
+float: left;
+width: 100%;
+overflow: hidden;
+}
+
+.fpbox {
+border: 1px solid #82a8af;
+box-shadow: 0 2px 5px #687478;
+background: rgba(0, 0, 0, 0.10);
+color: #000000;
+margin: 5px 5px 5px 5px;
+padding: 5px 5px 5px 5px;
+overflow: auto;
+}
+
+.fpbox .mainheading {
+border: none;
+border-bottom: 1px solid #82a8af;
+color: #82a8af;
+font-size: 150%;
+font-weight: bold;
+margin: 0 0 10px 0;
+padding: 0 0 5px 0;
+overflow: auto;
+}
+
+.fpbox .heading {
+border: none;
+border-bottom: 1px solid #82a8af;
+color: #ffffff;
+font-size: 132%;
+margin: 0 0 10px 0;
+padding: 0 0 5px 0;
+overflow: auto;
+}
+
+.fpmain .columns .leftcol {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.fpmain .columns .rightcol {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.fpsection1, .fpsection2, .fpsection3, .fpsection4 {
+float: left;
+clear: both; 
+width: 100%;
+}
+
+div.fp2columnonly, div.fp3columnonly {
+display: none; 
+}
+
+@media (min-width: 790px) {
+.fpsection1 {
+  float: left;
+  clear: none;
+  width: 50%;
+}
+
+.fpmidsections {
+  clear: none;
+  float: right;
+  width: 50%;
+}
+
+.fpsection4 {
+  float: left;
+  clear: none;
+  width: 50%;
+}
+
+div.fp2columnonly {
+  display: block; 
+}
+}
+
+@media (min-width: 990px) {
+.fpmain .columns .leftcol {
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.fpmain .columns .rightcol {
+  float: right;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+}
+
+@media (min-width: 1390px) {
+.fpmidsections {
+  clear: none;
+  float: right;
+  width: 66.667%;
+}
+
+.fpsection1 {
+  clear: none;
+  width: 33.333%;
+}
+
+.fpsection2 {
+  clear: none;
+  width: 50%;
+}
+
+.fpsection3 {
+  clear: none;
+  width: 50%;
+}
+
+.fpsection4 {
+  clear: left;
+  width: 33.333%;
+}
+
+div.fp2columnonly {
+  display: none; 
+}
+
+div.fp3columnonly {
+  display: block; 
+}
+}
+
+.fpbox.plain {
+border: none;
+box-shadow: none;
+background: transparent;
+}
+
+.fpimagelist ul {
+list-style-type: none;
+list-style-image: none;
+}
+
+.fpvideos {
+margin: 0 auto;
+overflow: hidden;
+text-align: center;
+}
+
+.fpvideo {
+display: inline-block;
+margin: 0 5px;
+}
 
 table .number {
   text-align: right;
