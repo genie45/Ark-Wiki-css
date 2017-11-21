@@ -204,11 +204,11 @@ div#p-cactions h3.p-cactions-label div.menu{
   border: 1px solid #440263
 }
 
-
-
+/*
 div.fpmidsections div.fpsection3 div.fpbox center div.twitter-timeline-wrapper{
   background-image: none !important;
 }
+*/
 
 @font-face {
   font-family: 'FontAwesome';
@@ -322,7 +322,207 @@ html .thumbimage{
     border-color: #440263;
 }
 
+/* -------------------------- */
+/* "ARKITEXURE"-STYLE INFOBOX */
+/* -------------------------- */
 
+/* arkitexure rounded borders */
+.info-arkitex {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -icab-border-radius: 10px;
+  -o-border-radius: 10px;
+  float:center;
+}
+
+.info-arkitex-left {
+  border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -khtml-border-radius: 10px 0 0 10px;
+  -icab-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+  float:left;
+}
+
+.info-arkitex-right {
+  border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  -khtml-border-radius: 0 10px 10px 0;
+  -icab-border-radius: 0 10px 10px 0;
+  -o-border-radius: 0 10px 10px 0;
+  float:right;
+}
+
+/* arkitexure full container */
+.info-framework {
+  float:right;
+  min-width:410px;
+  width:410px;
+  max-width:410px;
+  background: #9133a9;
+  border: 2px solid #825c8c;
+  margin:0 0 8px 8px;
+  padding:5px 5px 0 5px;
+  overflow:hidden;
+}
+
+/* arkitexure individual module (sub-container) */
+.info-module {
+  display:inline-block;
+  min-width:402px;
+  width:402px;
+  max-width:402px;
+  text-align:right;
+  background:#ac81c1;
+  margin:0 0 0/*5px*/ 0;
+  padding:4px 4px 0 4px;
+  overflow:hidden;
+}
+
+/* arkitexure "sub-module" component */
+.info-unit {
+  display:inline-block;
+  width:402px;
+  min-width:402px;
+  max-width:402px;
+  text-align:center;
+  margin:0 0 0/*4px*/ 0;
+  padding:0;
+  background:#444444;
+  overflow:hidden;
+}
+
+.info-unit-row{
+  display:flex;
+  flex-direction:row;
+  align-items:top;
+  min-width:402px;
+  width:402px;
+  max-width:402px;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+}
+
+.info-unit-comment {
+  display:flex;
+  align-items:left;
+  font-size:11px !important;
+}
+
+.info-unit-caption {
+  text-align:center !important;
+  padding:0 8px 0 8px !important;
+  background:none !important;
+}
+
+/* arkitexure cell, intended for one total column, 100% width */
+.info-X1-100 {
+  display:inline-block;
+  min-width:396px;
+  width:396px;
+  max-width:396px;
+  margin:1px;
+  padding:5px 2px 5px 2px;
+  background:#fff;
+}
+
+.info-masthead {
+  display:flex !important;
+  align-items:center;
+  justify-content:center;
+  min-height:38px;
+  height:auto;
+  font-size:24px;
+}
+.info-column {
+  display:flex !important;
+  flex-direction:column;
+  align-items:center;
+}
+
+.info-sound-div { 
+  margin:5px 0 -5px 0;
+}
+
+/* arkitexure cell, intended for two total columns, 25% width */
+.info-X2-25 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:92px;
+  width:92px;
+  max-width:92px;
+  min-height:40px;
+  height:40px;
+  max-height:40px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#cec0d4;
+}
+/* arkitexure cell, intended for two total columns, 75% width */
+.info-X2-75 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:274px;
+  width:274px;
+  max-width:274px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#e2dee4;
+  min-height:40px;
+  height:auto;
+  font-size:24px;
+}
+
+/* arkitexure cell, intended for two total columns, 40% width */
+.info-X2-40 {
+  display:inline-block;
+  min-width:144px;
+  width:144px;
+  max-width:144px;
+  min-height:24px;
+  height:24px;
+  max-height:24px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#cec0d4;
+  text-align:right;
+}
+/* arkitexure cell, intended for two total columns, 60% width */
+.info-X2-60 {
+  display:inline-block;
+  min-width:222px;
+  width:222px;
+  max-width:222px;
+  min-height:24px;
+  height:auto;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#e2dee4;
+  text-align:left;
+}
+
+/* arkitexure cell, intended for three total columns, 33% width */
+.info-X3-33 {
+  display:inline-block;
+  min-width:116px;
+  width:116px;
+  max-width:116px;
+  min-height:24px;
+  height:auto;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#e2dee4;
+  text-align:center;
+}
+
+/* END "ARKITEXURE"-STYLE INFOBOX */
 
 
 
@@ -1038,79 +1238,6 @@ table .number {
 .infobox-spacer {
   height: 0.5em;
 }
-
-
-
-/* -------------------------- */
-/* "ARKITEXURE"-STYLE INFOBOX */
-/* -------------------------- */
-
-/* arkitexure rounded borders */
-.info-arkitex {
-  border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; -icab-border-radius: 10px; -o-border-radius: 10px; float:center;
-}
-.info-arkitex-left {
-  border-radius: 10px 0 0 10px; -moz-border-radius: 10px 0 0 10px; -webkit-border-radius: 10px 0 0 10px; -khtml-border-radius: 10px 0 0 10px; -icab-border-radius: 10px 0 0 10px; -o-border-radius: 10px 0 0 10px; float:left;
-}
-.info-arkitex-right {
-  border-radius: 0 10px 10px 0; -moz-border-radius: 0 10px 10px 0; -webkit-border-radius: 0 10px 10px 0; -khtml-border-radius: 0 10px 10px 0; -icab-border-radius: 0 10px 10px 0; -o-border-radius: 0 10px 10px 0; float:right;
-}
-
-/* arkitexure full container */
-.info-framework {
-  float:right; min-width:410px; width:410px; max-width:410px; background:#68a090; border:2px solid #44685e; margin:0 0 8px 8px; padding:5px 5px 0 5px; overflow:hidden;
-}
-
-/* arkitexure individual module (sub-container) */
-.info-module {
-  display:inline-block; min-width:402px; width:402px; max-width:402px; text-align:right; background:#9dc1b7; margin:0 0 0/*5px*/ 0; padding:4px 4px 0 4px; overflow:hidden;
-}
-
-/* arkitexure "sub-module" component */
-.info-unit {
-  display:inline-block; width:402px; min-width:402px; max-width:402px; text-align:center; margin:0 0 0/*4px*/ 0; padding:0; background:#9dc1b7; overflow:hidden;
-}
-.info-unit-row {
-  display:flex; flex-direction:row; align-items:top; min-width:402px; width:402px; max-width:402px; padding:0; margin:0; overflow:hidden;
-}
-.info-unit-comment { display:flex; align-items:left; font-size:11px !important; }
-.info-unit-caption { text-align:center !important; padding:0 8px 0 8px !important; background:none !important; }
-
-/* arkitexure cell, intended for one total column, 100% width */
-.info-X1-100 {
-  display:inline-block; min-width:396px; width:396px; max-width:396px; margin:1px; padding:5px 2px 5px 2px; background:#fff;
-}
-.info-masthead { display:flex !important; align-items:center; justify-content:center; min-height:38px; height:auto; font-size:24px; }
-.info-column { display:flex !important; flex-direction:column; align-items:center; }
-.info-sound-div { margin:5px 0 -5px 0; }
-
-
-/* arkitexure cell, intended for two total columns, 25% width */
-.info-X2-25 {
-  display:flex; align-items:center; justify-content:center; min-width:92px; width:92px; max-width:92px; min-height:40px; height:40px; max-height:40px; margin:1px; padding:5px 8px 5px 8px; background:#edf3eb;
-}
-/* arkitexure cell, intended for two total columns, 75% width */
-.info-X2-75 {
-  display:flex; align-items:center; justify-content:center; min-width:274px; width:274px; max-width:274px; margin:1px; padding:5px 8px 5px 8px; background:#fff; min-height:40px; height:auto; font-size:24px;
-}
-
-/* arkitexure cell, intended for two total columns, 40% width */
-.info-X2-40 {
-  display:inline-block; min-width:144px; width:144px; max-width:144px; min-height:24px; height:24px; max-height:24px; margin:1px; padding:5px 8px 5px 8px; background:#edf3eb; text-align:right;
-}
-/* arkitexure cell, intended for two total columns, 60% width */
-.info-X2-60 {
-  display:inline-block; min-width:222px; width:222px; max-width:222px; min-height:24px; height:auto; margin:1px; padding:5px 8px 5px 8px; background:#fff; text-align:left;
-}
-
-/* arkitexure cell, intended for three total columns, 33% width */
-.info-X3-33 {
-  display:inline-block; min-width:116px; width:116px; max-width:116px; min-height:24px; height:auto; margin:1px; padding:5px 8px 5px 8px; background:#fff; text-align:center;
-}
-
-/* END "ARKITEXURE"-STYLE INFOBOX */
-
-
 
 /* Creature Region Map */
 .cr-region-map-map img{
