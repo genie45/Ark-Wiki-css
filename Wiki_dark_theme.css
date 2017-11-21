@@ -428,7 +428,7 @@ html .thumbimage{
   max-width:396px;
   margin:1px;
   padding:5px 2px 5px 2px;
-  background:#fff;
+  background:#e2dee4;
 }
 
 .info-masthead {
@@ -449,6 +449,10 @@ html .thumbimage{
   margin:5px 0 -5px 0;
 }
 
+.info-arkitex-right-info-X2-75{
+  color: darkslategray;
+}
+
 /* arkitexure cell, intended for two total columns, 25% width */
 .info-X2-25 {
   display:flex;
@@ -463,6 +467,7 @@ html .thumbimage{
   margin:1px;
   padding:5px 8px 5px 8px;
   background:#cec0d4;
+  color: darkslategray;
 }
 /* arkitexure cell, intended for two total columns, 75% width */
 .info-X2-75 {
@@ -478,6 +483,7 @@ html .thumbimage{
   min-height:40px;
   height:auto;
   font-size:24px;
+  color: grey;
 }
 
 /* arkitexure cell, intended for two total columns, 40% width */
@@ -493,6 +499,7 @@ html .thumbimage{
   padding:5px 8px 5px 8px;
   background:#cec0d4;
   text-align:right;
+  color: darkslategray;
 }
 /* arkitexure cell, intended for two total columns, 60% width */
 .info-X2-60 {
@@ -506,6 +513,7 @@ html .thumbimage{
   padding:5px 8px 5px 8px;
   background:#e2dee4;
   text-align:left;
+  color: grey;
 }
 
 /* arkitexure cell, intended for three total columns, 33% width */
@@ -520,6 +528,7 @@ html .thumbimage{
   padding:5px 8px 5px 8px;
   background:#e2dee4;
   text-align:center;
+  color: grey;
 }
 
 /* END "ARKITEXURE"-STYLE INFOBOX */
