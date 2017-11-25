@@ -360,7 +360,6 @@ div#footer a:hover {
   color: #397d75;
 }
 
-
 /*Icons need to be remade in a light color to show properly*/
 table.jquery-tablesorter th.headerSort{
   background-image: url(up-and-down-arrow.png);/*Placeholder link*/
@@ -663,7 +662,7 @@ div#mw-head div.vectorMenu h3 {
 
 div.vectorMenu h3 span {
   padding-top: 1.3em;
-  color: rgba(48, 48, 48, 1);
+  color: #c2b9b9;
   cursor: pointer;
 }
 
