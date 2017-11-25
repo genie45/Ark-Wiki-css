@@ -666,9 +666,159 @@ div.vectorMenu h3 span {
   cursor: pointer;
 }
 
+/* Wiki editor fixes */
+.wikiEditor-ui {
+  background: rgba(0, 0, 0, 0);
+  border: medium none;
+  color: #c2b9b9;
+}
 
+.wikiEditor-ui .wikiEditor-ui-view {
+  border-bottom: medium none;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-top : medium none;
+}
 
+div.wikiEditor-ui-buttons {
+  background-color: rgba(0, 0, 0, 0);
+  border-top: medium none;
+  margin-right: 5px;
+}
 
+div.wikiEditor-ui-controls {
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs {
+  background-color: #28333f;
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs div {
+  background-color: #28333f;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs div a {
+   background: #28333f;
+   color: #c0c0c0;
+}
+
+.wikiEditor-ui-tabs div.current {
+  background-color: #28333f;
+  border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs div.current a {
+  color: #c0c0c0;
+  font-weight: bold;
+}
+
+.wikiEditor-ui .wikiEditor-ui-top {
+  border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-toolbar {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-ui-toolbar .group {
+  border-right: 1px solid #000000;
+}
+
+.wikiEditor-ui-toolbar .group-search {
+  border-left: 1px solid #000000;
+  border-right: none;
+}
+
+.wikiEditor-ui-toolbar .group .label {
+  color: #c2b9b9;
+}
+
+.tab {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-ui-toolbar .tabs span.tab a,
+.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+  color: #c2b9b9;
+}
+
+.wikiEditor-ui-toolbar .tabs span.tab a.current,
+.wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+  color: #c2b9b9;
+}
+
+.wikiEditor-ui-toolbar .group .tool-select .label {
+  color: #c2b9b9;
+}
+
+.wikiEditor-ui-toolbar .sections .section {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid #000000;
+}
+
+.wikiEditor-ui-toolbar .booklet .index div {
+  color: #efefef;
+}
+
+.wikiEditor-ui-toolbar .booklet .index .current {
+  background-color: rgba(0, 0, 0, 0);
+  color: #c2b9b9;
+}
+
+.wikiEditor-ui-toolbar .booklet .pages {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-ui-toolbar .page-characters div span {
+  border: 1px solid #000000;
+  color: #c2b9b9;
+}
+
+.wikiEditor-ui-toolbar .page-characters div span:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #000000;
+  color: #efefef;
+}
+
+.wikiEditor-ui-toolbar .page-table td {
+  border-top: 1px solid #000000;
+  color: #c2b9b9;
+}
+
+.wikiEditor-preview-loading {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-preview-contents {
+  background-color: rgba(0, 0, 0, 0);
+  border: #000000;
+  border-image: none;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+}
+
+.editOptions {  
+  background-color: rgba(0, 0, 0, 0);
+  border: #000000;
+  border-image: none;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+}
+
+div.tool.tool-select{
+  color: #000000;
+}
+
+textarea{
+  background-color: #000000;
+  color: #ffffff;
+}
 
 /*=======================================================================================================*/
 
