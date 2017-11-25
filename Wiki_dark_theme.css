@@ -250,22 +250,19 @@ div#mw-panel div#p-socialProfiles.portal .body {
   max-width: 100%;
 }
 
-
-/*
-div.fpmidsections div.fpsection3 div.fpbox center div.twitter-timeline-wrapper{
-  background-image: none !important;
-}
-*/
-
 @font-face {
   font-family: 'FontAwesome';
   src: local('FontAwesome'), local('FontAwesome'), url(/media/hydra/fonts/FontAwesome.otf) format('opentype');
 }
 
+/* Content */
+
 div#content{
   background-color: rgba(32, 28, 28, 0.95);
   color: #c2b9b9;
   border-color: #440263;
+  box-shadow: rgb(155, 1, 147) 0 0.1em 0.75em;
+  margin-top: 1em;
 }
 
 div#content #firstHeading{
@@ -282,9 +279,11 @@ span.editsection{
   color: #440263;
 }
 
-.toc, #toc{
-  background:#2c2c2c; 
-  border-color: #440263;
+#toc, .toc, .mw-warning {
+  background-color: #2c2c2cc4;
+  border: 1px solid #440263;
+  font-size: 95%;
+  padding: 5px;
 }
 
 .tocnumber{
@@ -299,8 +298,21 @@ div#content #toctitle h2{
   color: #440263;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2{
   border-bottom: 1px solid #440263;
+}
+
+h3, h4, h5, h6{
+  border-bottom: 0px solid #440263;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #797979;
+}
+
+.catlinks {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
 }
 
 hr{
@@ -321,8 +333,35 @@ table.wikitable td{
   color: #c2b9b9;
 }
 
-/*Icons need to be remade in a light color to show properly*/
+.mw-warning{
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
 
+/*****************
+/* Footer styles *
+/*****************/
+div#footer {
+  background-image: none;
+}
+
+div#footer ul li {
+  color: #ffffff;
+}
+
+div#footer a {
+  color: #d4d5b8;
+  text-shadow: 1px 1px #000000;
+}
+
+div#footer a:hover {
+  color: #397d75;
+}
+
+
+/*Icons need to be remade in a light color to show properly*/
 table.jquery-tablesorter th.headerSort{
   background-image: url(up-and-down-arrow.png);/*Placeholder link*/
   background-position: right-center;
@@ -611,11 +650,10 @@ a:active {
   color: #9c4fa7;
 }
 
-
-
-/*=======================================================================================================*/
-
-
+/*Keyboardsymbol fix */
+kbd{
+  color: black;
+}
 
 /* Sliver Fix */
 
@@ -625,70 +663,16 @@ div#mw-head div.vectorMenu h3 {
 
 div.vectorMenu h3 span {
   padding-top: 1.3em;
-  color: #ffffff;
+  color: rgba(48, 48, 48, 1);
   cursor: pointer;
 }
 
-/* Content */
-div#content {
-  background: rgba(255, 255, 255, 0.8);
-  color: #111111;
-  border: 1px solid #1a1a1a;
-  box-shadow: rgba(26, 26, 26, 1) 0 0.1em 0.75em;
-  margin-top: 1em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #303030;
-}
-
-h1, h2 {
-  border-bottom: 1px solid #303030;
-}
-
-h3, h4, h5, h6 {
-  border-bottom: 0px solid #dddad3;
-}
-
-.catlinks {
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 1px solid #000000;
-}
-
-.mw-warning {
-  background-color: rgba(0, 0, 0, 0.1);
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
-}
-
-#toc, .toc, .mw-warning {
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 1px solid #000000;
-  font-size: 95%;
-  padding: 5px;
-}
 
 
-/*****************
-/* Footer styles *
-/*****************/
-div#footer {
-  background-image: none;
-}
 
-div#footer ul li {
-  color: #ffffff;
-}
 
-div#footer a {
-  color: #d4d5b8;
-  text-shadow: 1px 1px #000000;
-}
+/*=======================================================================================================*/
 
-div#footer a:hover {
-  color: #397d75;
-}
 
 /* Wiki editor fixes */
 .wikiEditor-ui {
