@@ -75,8 +75,8 @@ body.page-ARK_Survival_Evolved_Wiki h1.firstHeading {
   
   .fpbox .mainheading {
   border: none;
-  border-bottom: 1px solid #82a8af;
-  color: #82a8af;
+  border-bottom: 1px solid #440263;
+  color: #440263;
   font-size: 150%;
   font-weight: bold;
   margin: 0 0 10px 0;
@@ -86,8 +86,8 @@ body.page-ARK_Survival_Evolved_Wiki h1.firstHeading {
   
   .fpbox .heading {
   border: none;
-  border-bottom: 1px solid #82a8af;
-  color: #ffffff;
+  border-bottom: 1px solid #440263;
+  color: #440263;
   font-size: 132%;
   margin: 0 0 10px 0;
   padding: 0 0 5px 0;
@@ -216,7 +216,7 @@ body.page-ARK_Survival_Evolved_Wiki h1.firstHeading {
   
   table .number {
     text-align: right;
-  }
+  } 
 
 /* MsUpload color fixes */
 #upload-list .file {
@@ -237,6 +237,33 @@ color: #E0E0E0;
 
 #upload-list .file .small-warn {
   background: url("//test.gamepedia.com/extensions/MsUpload/images/msu_error-small.png") no-repeat scroll 0 center rgba(255, 246, 191, 0.2);
+}
+
+/* Gamepedia fixes */
+.ghost { color: #666666; }
+
+/* link-spanner */
+.link-spanner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Allow limiting of which header levels are shown in a TOC;
+   <div class="toclimit-3">, for instance, will limit to
+   showing ==headings== and ===headings=== but no further
+   (as long as there are no =headings= on the page, which
+   there shouldn't be according to the MoS). */
+.toclimit-2 .toclevel-1 ul,
+.toclimit-3 .toclevel-2 ul,
+.toclimit-4 .toclevel-3 ul,
+.toclimit-5 .toclevel-4 ul,
+.toclimit-6 .toclevel-5 ul,
+.toclimit-7 .toclevel-6 ul {
+  display: none;
 }
 
 /* Framework */
@@ -851,9 +878,10 @@ a:active {
   color: #9c4fa7;
 }
 
-/*Keyboardsymbol fix */
-kbd{
-  color: black;
+/* no external link icon for internal links */
+#content a.external[href^="http://ark.gamepedia.com"], #content a.external[href^="https://ark.gamepedia.com"], #content a.external[href^="//ark.gamepedia.com"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  padding-right: 0;
 }
 
 /* Sliver Fix */
@@ -1289,57 +1317,6 @@ ul.tabbernav li {
   font-weight:bold;
 }
 
-
-
-
-/*=======================================================================================================*/
-
-
-
-
-
-
-
-
-/* no external link icon for internal links */
-#content a.external[href^="http://ark.gamepedia.com"], #content a.external[href^="https://ark.gamepedia.com"], #content a.external[href^="//ark.gamepedia.com"] {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  padding-right: 0;
-}
-
-
-
-/* Gamepedia fixes */
-.ghost { color: #666666; }
-
-/* link-spanner */
-.link-spanner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-/* Allow limiting of which header levels are shown in a TOC;
-   <div class="toclimit-3">, for instance, will limit to
-   showing ==headings== and ===headings=== but no further
-   (as long as there are no =headings= on the page, which
-   there shouldn't be according to the MoS). */
-.toclimit-2 .toclevel-1 ul,
-.toclimit-3 .toclevel-2 ul,
-.toclimit-4 .toclevel-3 ul,
-.toclimit-5 .toclevel-4 ul,
-.toclimit-6 .toclevel-5 ul,
-.toclimit-7 .toclevel-6 ul {
-  display: none;
-}
-
-
-
-
-
 /* Creature Region Map */
 .cr-region-map-map img{
   filter: sepia(60%);
@@ -1411,16 +1388,15 @@ ul.tabbernav li {
   background-color: #ccc;
 }
 
-
 /* Navbox */
 .navbox-header{
   font-weight: bold;
   font-size: 120%;
-  color: #c4ded6;
+  color: #dec4de;
 }
 
 .navbox-header a:link{
-  color: #70C0B6;
+  color: rgb(58, 58, 58);
 }
 
 .navbox th{
@@ -1458,13 +1434,6 @@ ul.tabbernav li {
   width: 35px;
 }
 
-
-
-
-
-
-
-
 /* Survivor Profile Table (Template:DTile) */
 .dtile a:link, .dtile a:visited, .dtile_dlc a:link, .dtile_dlc a:visited{
   color: #a8b9ba !important;
@@ -1488,7 +1457,6 @@ ul.tabbernav li {
   cursor: pointer;
 }
 
-
 /* Keyboard-Keys (Template:Key) */
 kbd {
   font-family: monospace,Courier;
@@ -1500,6 +1468,7 @@ kbd {
   padding: 0 .2em 0 .3em;
   text-shadow: 0 1px rgba(255,255,255,.5);
   white-space: nowrap;
+  color: black;
 }
 
 kbd:after{
@@ -1601,9 +1570,9 @@ text-decoration: line-through;
   font-size: 1.5em;
   margin-top: 1em;
   line-height: 1.3;
-  color: #000;
+  color: #c2b9b9;
   font-weight: normal;
   margin-bottom: 0.25em;
   padding: 0;
-  border-bottom: 1px solid #303030;
+  border-bottom: 1px solid #440263;
 }
