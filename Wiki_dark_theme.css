@@ -596,17 +596,17 @@ div#footer a:hover {
 
 /*Icons need to be remade in a light color to show properly*/
 table.jquery-tablesorter th.headerSort{
-  background-image: url(up-and-down-arrow.png);/*Placeholder link*/
+  background-image: url(//ark.gamepedia.com/media/ark.gamepedia.com/4/4a/Up_and_down_arrow.png);
   background-position: right-center;
 }
 
 table.jquery-tablesorter th.headerSortDown{
-  background-image: url(down-arrow.png);/*Placeholder link*/
+  background-image: url(//ark.gamepedia.com/media/ark.gamepedia.com/2/2a/Arrow_drop_down_white.png);
   background-position: right-center;
 }
 
 table.jquery-tablesorter th.headerSortUp{
-  background-image: url(up-arrow.png);/*Placeholder link*/
+  background-image: url(//ark.gamepedia.com/media/ark.gamepedia.com/c/c7/Arrow_drop_up_white.png);
   background-position: right-center;  
 }
 
