@@ -1,4 +1,4 @@
-/*Aberration themed css */
+/*dark theme css */
 /* https://help.gamepedia.com/MediaWiki_CSS */
 
 /* For elements which only display in the mobile view */
@@ -270,7 +270,7 @@ color: #E0E0E0;
 body {
   background-attachment: fixed;
   background-color: rgb(33, 26, 36);
-  background-image: url(//ark.gamepedia.com/media/ark.gamepedia.com/c/c8/AB_9.jpg);
+  background-image: url(//hydra-media.cursecdn.com/ark.gamepedia.com/9/98/Bg.jpg);
   background-repeat: repeat;
   background-size: cover;
 }
@@ -595,17 +595,17 @@ div#footer a:hover {
 }
 
 table.jquery-tablesorter th.headerSort{
-  background-image: url(//ark.gamepedia.com/media/ark.gamepedia.com/4/4a/Up_and_down_arrow.png);
+  background-image: url(//d1u5p3l4wpay3k.cloudfront.net/arksurvivalevolved_gamepedia/4/4a/Up_and_down_arrow.png);
   background-position: right-center;
 }
 
 table.jquery-tablesorter th.headerSortDown{
-  background-image: url(//ark.gamepedia.com/media/ark.gamepedia.com/2/2a/Arrow_drop_down_white.png);
+  background-image: url(//d1u5p3l4wpay3k.cloudfront.net/arksurvivalevolved_gamepedia/2/2a/Arrow_drop_down_white.png);
   background-position: right-center;
 }
 
 table.jquery-tablesorter th.headerSortUp{
-  background-image: url(//ark.gamepedia.com/media/ark.gamepedia.com/c/c7/Arrow_drop_up_white.png);
+  background-image: url(//d1u5p3l4wpay3k.cloudfront.net/arksurvivalevolved_gamepedia/c/c7/Arrow_drop_up_white.png);
   background-position: right-center;  
 }
 
