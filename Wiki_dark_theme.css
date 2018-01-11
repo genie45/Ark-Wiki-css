@@ -1,6 +1,16 @@
 /*dark theme css */
 /* https://help.gamepedia.com/MediaWiki_CSS */
 
+/*Fonts used*/
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: local('FontAwesome'), local('FontAwesome'), url(/media/hydra/fonts/FontAwesome.otf) format('opentype');
+}
+
+
+
+
 /* For elements which only display in the mobile view */
 .mobileonly {
   display: none;
@@ -484,16 +494,11 @@ div#mw-panel div#p-socialProfiles.portal .body {
   max-width: 100%;
 }
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: local('FontAwesome'), local('FontAwesome'), url(/media/hydra/fonts/FontAwesome.otf) format('opentype');
-}
-
 /* Content */
 
 div#content{
   background-color: rgba(32, 28, 28, 0.95);
-  background-image: url(//i.imgur.com/COA574g.png);
+  /*background-image: url(//i.imgur.com/COA574g.png);*/
   color: #c2b9b9;
   border-color: #440263;
   box-shadow: rgb(155, 1, 147) 0 0.1em 0.75em;
