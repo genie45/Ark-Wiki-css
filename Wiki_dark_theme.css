@@ -2,14 +2,10 @@
 /* https://help.gamepedia.com/MediaWiki_CSS */
 
 /*Fonts used*/
-
 @font-face {
-  font-family: 'FontAwesome';
-  src: local('FontAwesome'), local('FontAwesome'), url(/media/hydra/fonts/FontAwesome.otf) format('opentype');
+  font-family: ARK;
+  src: local('ARK'), local('ARK'), url(//survivetheark.com/ARK-Regular.ttf) format('opentype');
 }
-
-
-
 
 /* For elements which only display in the mobile view */
 .mobileonly {
@@ -31,10 +27,10 @@ body.page-ARK_Survival_Evolved_Wiki h1.firstHeading {
   }
   
   .fpbanner {
-  border: 1px solid #82a8af;
+  border: 1px solid #65b7cf;
   box-shadow: rgba(25, 35, 41, 1) 0 0.1em 0.5em;
   background: rgba( 0, 0, 0, .2 );
-  color: #000000;
+  color: #65b7cf;
   margin: 0 5px 5px 5px;
   padding: 5px;
   min-height: 80px;
@@ -74,10 +70,11 @@ body.page-ARK_Survival_Evolved_Wiki h1.firstHeading {
   }
   
   .fpbox {
-  border: 1px solid #440263;
-  box-shadow: 0 2px 5px #687478;
+  border: 1px solid #65b7cf;
+  box-shadow: 0 2px 5px #7ad6f1;
   background: rgba(0, 0, 0, 0.10);
-  color: #c2b9b9;
+  font-size: 1.1em;
+  color: #65b7cf;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   overflow: auto;
@@ -290,7 +287,7 @@ div#pageWrapper {
 }
 
 div#mw-page-base {
-  background: rgba(0, 0, 0, 0.5) !important;    
+  background: none !important;    
 }
 
 div#mw-head-base {
@@ -497,37 +494,42 @@ div#mw-panel div#p-socialProfiles.portal .body {
 /* Content */
 
 div#content{
-  background-color: rgba(32, 28, 28, 0.95);
+  background-color: rgba(31, 30, 30, 0.95);
   /*background-image: url(//i.imgur.com/COA574g.png);*/
-  color: #c2b9b9;
-  border-color: #440263;
-  box-shadow: rgb(155, 1, 147) 0 0.1em 0.75em;
+  font-family: ARK;
+  font-size: 1.1em;
+  color: #65b7cf;
+  border-color: #65b7cf;
+  box-shadow: #7ad6f1 0 0.1em 0.75em;
   margin-top: 1em;
 }
 
 div#content #firstHeading{
-  color: #9000c9;
-  text-shadow: 1px 1px 15px rgba(68, 2, 99, 20);
+  font-family: ARK;
+  color: #65b7cf;
+  text-shadow: 1px 1px 15px #65b7cf;
   font-weight: bold;
 }
 
 div#content h1, div#content h2, div#content h3, div#content h4, div#content h5, div#content h6{
-  color: #c2b9b9;
+  overflow: auto;
+  font-family: ARK;
+  color: #65b7cf;
 }
 
 span.editsection{
-  color: #440263;
+  color: #65b7cf;
 }
 
 #toc, .toc, .mw-warning {
-  background-color: #2c2c2cc4;
-  border: 1px solid #440263;
+  background: none;
+  border: 1px solid #65b7cf;
   font-size: 95%;
   padding: 5px;
 }
 
 .tocnumber{
-  color: #c2b9b9;
+  color: #65b7cf;
 }
 
 div#content #toctitle h2{
@@ -535,7 +537,7 @@ div#content #toctitle h2{
 }
 
 .toctoggle, #toc .toctoggle{
-  color: #440263;
+  color: #65b7cf;
 }
 
 h1, h2{
@@ -543,7 +545,7 @@ h1, h2{
 }
 
 h3, h4, h5, h6{
-  border-bottom: 0px solid #440263;
+  border: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
