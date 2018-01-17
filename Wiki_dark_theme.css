@@ -82,8 +82,9 @@ body.page-ARK_Survival_Evolved_Wiki h1.firstHeading {
   
   .fpbox .mainheading {
   border: none;
-  border-bottom: 1px solid #440263;
-  color: #440263;
+  border-bottom: 1px solid #7ad6f1;
+  color: #65b7cf;
+  text-shadow: 1px 1px 15px #7ad6f1;
   font-size: 150%;
   font-weight: bold;
   margin: 0 0 10px 0;
@@ -93,8 +94,8 @@ body.page-ARK_Survival_Evolved_Wiki h1.firstHeading {
   
   .fpbox .heading {
   border: none;
-  border-bottom: 1px solid #440263;
-  color: #440263;
+  border-bottom: 1px solid #7ad6f1;
+  color: #65b7cf;
   font-size: 132%;
   margin: 0 0 10px 0;
   padding: 0 0 5px 0;
@@ -507,7 +508,7 @@ div#content{
 div#content #firstHeading{
   font-family: ARK;
   color: #65b7cf;
-  text-shadow: 1px 1px 15px #65b7cf;
+  text-shadow: 1px 1px 15px #7ad6f1;
   font-weight: bold;
 }
 
@@ -541,7 +542,7 @@ div#content #toctitle h2{
 }
 
 h1, h2{
-  border-bottom: 1px solid #440263;
+  border-bottom: 1px solid #7ad6f1;
 }
 
 h3, h4, h5, h6{
@@ -549,7 +550,7 @@ h3, h4, h5, h6{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #797979;
+  color: #65b7cf;
 }
 
 .catlinks {
@@ -558,7 +559,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr{
-  color: #440263;
+  color: #7ad6f1;
 }
 
 table.wikitable{
