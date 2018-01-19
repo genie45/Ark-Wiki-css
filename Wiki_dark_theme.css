@@ -7,6 +7,11 @@
   src: local('ARK'), local('ARK'), url(//survivetheark.com/ARK-Regular.ttf) format('opentype');
 }
 
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: local('Roboto-Regular'), local('Roboto-Regular'), url(/media/hydra/fonts/Roboto-Regular.ttf) format('truetype');
+}
+
 /* For elements which only display in the mobile view */
 .mobileonly {
   display: none;
@@ -562,18 +567,21 @@ hr{
   color: #7ad6f1;
 }
 
+/*Wikitable fixes*/
 table.wikitable{
-  background: rgba(0, 0, 0, 0)
+  background: rgb(31, 30, 30);
+  color: #65b7cf;
+  border: #7ad6f1;
 }
 
-table.wikitable th, table.wikitable * tr th, table.wikitable.sortable.jquery-tablesorter th{
-  background: rgba(32, 28, 28, 0.95);
-  color: #c2b9b9;
+table.wikitable th, table.wikitable * tr th{
+  background: #58cff3;
+  color: #000000;
 }
 
 table.wikitable td{
-  background: rgba(48, 48, 48, 0.767);
-  color: #c2b9b9;
+  background: rgb(48, 48, 48);
+  color: #65b7cf;
 }
 
 .mw-warning{
@@ -588,6 +596,7 @@ table.wikitable td{
 /*****************/
 div#footer {
   background-image: none;
+  font-family: Roboto-Regular;
 }
 
 div#footer ul li {
@@ -595,27 +604,12 @@ div#footer ul li {
 }
 
 div#footer a {
-  color: #d4d5b8;
+  color: #b8d5d0;
   text-shadow: 1px 1px #000000;
 }
 
 div#footer a:hover {
-  color: #397d75;
-}
-
-table.jquery-tablesorter th.headerSort{
-  background-image: url(//d1u5p3l4wpay3k.cloudfront.net/arksurvivalevolved_gamepedia/4/4a/Up_and_down_arrow.png);
-  background-position: right-center;
-}
-
-table.jquery-tablesorter th.headerSortDown{
-  background-image: url(//d1u5p3l4wpay3k.cloudfront.net/arksurvivalevolved_gamepedia/2/2a/Arrow_drop_down_white.png);
-  background-position: right-center;
-}
-
-table.jquery-tablesorter th.headerSortUp{
-  background-image: url(//d1u5p3l4wpay3k.cloudfront.net/arksurvivalevolved_gamepedia/c/c7/Arrow_drop_up_white.png);
-  background-position: right-center;  
+  color: #39737d;
 }
 
 ul.gallery{
@@ -623,16 +617,16 @@ ul.gallery{
 }
 
 li.gallerybox{
-  background-color: rgba(0, 0, 0, 0.3)
+  background-color: rgba(0, 0, 0, 0);
 }
 
 div.gallerytext{
-    color: #c2b9b9
+    color: #65b7cf;
 }
 
 div.thumbinner{
-    background-color: rgba(0, 0, 0, 0.3);
-    border-color: #440263;
+    background-color: rgb(41, 41, 41);
+    border-color: #65b7cf;
 }
 
 html .thumbimage{
@@ -641,7 +635,7 @@ html .thumbimage{
 }
 
 .thumbcaption{
-    color: #c2b9b9;
+    color: #65b7cf;
 }
 
 /* -------------------------- */
