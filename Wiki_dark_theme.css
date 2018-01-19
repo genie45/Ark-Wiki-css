@@ -679,8 +679,8 @@ html .thumbimage{
   min-width:410px;
   width:410px;
   max-width:410px;
-  background: #9133a9;
-  border: 2px solid #825c8c;
+  background: #3388a9;
+  border: 2px solid #7ad6f1;
   margin:0 0 8px 8px;
   padding:5px 5px 0 5px;
   overflow:hidden;
@@ -693,7 +693,7 @@ html .thumbimage{
   width:402px;
   max-width:402px;
   text-align:right;
-  background:#ac81c1;
+  background: #65b7cf;
   margin:0 0 0/*5px*/ 0;
   padding:4px 4px 0 4px;
   overflow:hidden;
@@ -708,7 +708,7 @@ html .thumbimage{
   text-align:center;
   margin:0 0 0/*4px*/ 0;
   padding:0;
-  background:#2c2c2c;
+  background:#444444;
   overflow:hidden;
 }
 
@@ -744,8 +744,7 @@ html .thumbimage{
   max-width:396px;
   margin:1px;
   padding:5px 2px 5px 2px;
-  background:#e2dee4;
-  color: grey;
+  background:#e9fbf7;
 }
 
 .info-masthead {
@@ -783,8 +782,8 @@ html .thumbimage{
   max-height:40px;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#cec0d4;
-  color: darkslategray;
+  background:#8ba9aa;
+  color: #65b7cf;
 }
 /* arkitexure cell, intended for two total columns, 75% width */
 .info-X2-75 {
@@ -796,11 +795,11 @@ html .thumbimage{
   max-width:274px;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#e2dee4;
+  background: #0b83ca;
   min-height:40px;
   height:auto;
   font-size:24px;
-  color: grey;
+  color: #65b7cf;
 }
 
 /* arkitexure cell, intended for two total columns, 40% width */
@@ -814,9 +813,9 @@ html .thumbimage{
   max-height:24px;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#cec0d4;
+  background: #333333;
   text-align:right;
-  color: darkslategray;
+  color: #65b7cf;
 }
 /* arkitexure cell, intended for two total columns, 60% width */
 .info-X2-60 {
@@ -828,9 +827,9 @@ html .thumbimage{
   height:auto;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#e2dee4;
+  background:#0b83ca;
   text-align:left;
-  color: grey;
+  color: #65b7cf;
 }
 
 /* arkitexure cell, intended for three total columns, 33% width */
@@ -843,9 +842,9 @@ html .thumbimage{
   height:auto;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#e2dee4;
+  background:#333333;
   text-align:center;
-  color: grey;
+  color: #65b7cf;
 }
 /* END "ARKITEXURE"-STYLE INFOBOX */
 
@@ -853,31 +852,33 @@ html .thumbimage{
 /* Link styles *
 /***************/
 a {
-  color: #9c4fa7;
+  color: cyan;
 }
 
 div#content a:visited, a:visited {
-  color: #9c4fa7;
+  color: cyan;
 }
 
 a:hover, div#content a:visited:hover, a:visited:hover {
-  color: #9c4fa7;
+  color: cyan;
+  text-shadow: 1px 1px 10px #7ad6f1;
 }
 
 div#content a.extiw, div#content a.external {
-  color: #9c4fa7;
+  color: cyan;
 }
 
 div#content a.extiw:visited, div#content a.external:visited {
-  color: #9c4fa7;
+  color: cyan;
 }
 
 div#content a.extiw:hover, div#content a.external:hover, div#content a.extiw:visited:hover, div#content a.external:visited:hover {
-  color: #9c4fa7;
+  color: cyan;
+  text-shadow: 1px 1px 10px #7ad6f1;
 }
 
 a:active {
-  color: #9c4fa7;
+  color: cyan;
 }
 
 /* no external link icon for internal links */
