@@ -4,7 +4,7 @@
 /*Fonts used*/
 @font-face {
   font-family: ARK;
-  src: local('ARK'), local('ARK'), url(//survivetheark.com/ARK-Regular.ttf) format('opentype');
+  src: local('ARK'), local('ARK'), url(//survivetheark.com/ARK-Regular.ttf) format('truetype');
 }
 
 @font-face {
@@ -501,9 +501,8 @@ div#mw-panel div#p-socialProfiles.portal .body {
 
 div#content{
   background-color: rgba(31, 30, 30, 0.95);
-  /*background-image: url(//i.imgur.com/COA574g.png);*/
   font-family: ARK;
-  font-size: 1.1em;
+  font-size: 0.9em;
   color: #65b7cf;
   border-color: #65b7cf;
   box-shadow: #7ad6f1 0 0.1em 0.75em;
@@ -591,6 +590,10 @@ table.wikitable td{
   text-align: center;
 }
 
+table.wikitable tbody tr th a, table.wikitable tbody tr th b a{
+  color:darkblue;
+}
+
 /*****************
 /* Footer styles *
 /*****************/
@@ -637,6 +640,8 @@ html .thumbimage{
 .thumbcaption{
     color: #65b7cf;
 }
+
+
 
 /* -------------------------- */
 /* "ARKITEXURE"-STYLE INFOBOX */
@@ -744,7 +749,7 @@ html .thumbimage{
   max-width:396px;
   margin:1px;
   padding:5px 2px 5px 2px;
-  background:#e9fbf7;
+  background:#444444;
 }
 
 .info-masthead {
@@ -1135,28 +1140,28 @@ td.diff-addedline {
   margin-right: 1em;
   margin-bottom: 0.5em;
   padding: 2px;
-  background-color: #111111;
-  border: 1px solid #440263;
+  background-color: #444444;
+  border: 1px solid #7ad6f1;
 }
 
 .infobox-table {
   width: 100%;
   padding: 0;
-  background-color: #2c2c2c;
-  border: 1px solid #2c2c2c;
+  background-color: #444444;
+  border: 1px solid #7ad6f1;
 }
 
 .infobox-header {
   padding: 0.1em;
-  color: #ffffff;
-  background-color: #440263 /* #13473f*/;
+  color: #65b7cf;
+  background-color: #0b83ca;
   font-size: 130%;
   text-align: center;
 }
 
 .infobox-section {
-  background-color: darkslategrey;
-  color: white;
+  background-color: #333333;
+  color: #65b7cf;
 }
 
 .infobox-centered {
