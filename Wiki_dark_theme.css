@@ -1244,26 +1244,35 @@ ul.tabbernav li a:link {
   background: -webkit-linear-gradient(#ffffe0, transparent) !important; /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(#ffffe0, transparent) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffe0', endColorstr='#fff',GradientType=0 ) !important; /* IE6-9 */
-  color: #440263 !important;
+  color: #0b83ca !important;
 }
 ul.tabbernav li a:hover {
   background: #ddd !important;
-  color: #666666 !important;
+  color: #0b83ca !important;
   border-color: #44685e;
 }
 ul.tabbernav li.tabberactive a {
   font-size: 14px !important;
   color: #ffffff !important;
   text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
-  border-color: #624468;
+  border-color: #0b83ca;
   border-bottom: 1px solid #c19db8 !important;
-  background: -moz-linear-gradient(#9b68a0, #c19db8) !important; /* FF3.6-15 */
-  background: -webkit-linear-gradient(#9b68a0, #c19db8) !important; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(#9b68a0, #c19db8) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(#6c68a0, #9e9dc1) !important; /* FF3.6-15 */
+  background: -webkit-linear-gradient(#6c68a0, #9e9dc1) !important; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(#6c68a0, #9e9dc1) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b68a0', endColorstr='#c19db8',GradientType=0 ) !important; /* IE6-9 */
 }
 ul.tabbernav li {
  display:inline-block;
+}
+
+ul.tabber .tabbertab{
+  border: none;
+  padding: 5px;
+}
+
+ul.tabbernav{
+  border:none;
 }
 
 /* Template:Photo */
