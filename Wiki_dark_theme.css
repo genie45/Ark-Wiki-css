@@ -106,130 +106,6 @@ body.page-ARK_Survival_Evolved_Wiki h1.firstHeading {
   padding: 0 0 5px 0;
   overflow: auto;
   }
-  
-  .fpmain .columns .leftcol {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  }
-  
-  .fpmain .columns .rightcol {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  }
-  
-  .fpsection1, .fpsection2, .fpsection3, .fpsection4 {
-  float: left;
-  clear: both; 
-  width: 100%;
-  }
-  
-  div.fp2columnonly, div.fp3columnonly {
-  display: none; 
-  }
-  
-  @media (min-width: 790px) {
-  .fpsection1 {
-    float: left;
-    clear: none;
-    width: 50%;
-  }
-  
-  .fpmidsections {
-    clear: none;
-    float: right;
-    width: 50%;
-  }
-  
-  .fpsection4 {
-    float: left;
-    clear: none;
-    width: 50%;
-  }
-  
-  div.fp2columnonly {
-    display: block; 
-  }
-  }
-  
-  @media (min-width: 990px) {
-  .fpmain .columns .leftcol {
-    float: left;
-    width: 50%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .fpmain .columns .rightcol {
-    float: right;
-    width: 50%;
-    margin: 0;
-    padding: 0;
-  }
-  }
-  
-  @media (min-width: 1390px) {
-  .fpmidsections {
-    clear: none;
-    float: right;
-    width: 66.667%;
-  }
-  
-  .fpsection1 {
-    clear: none;
-    width: 33.333%;
-  }
-  
-  .fpsection2 {
-    clear: none;
-    width: 50%;
-  }
-  
-  .fpsection3 {
-    clear: none;
-    width: 50%;
-  }
-  
-  .fpsection4 {
-    clear: left;
-    width: 33.333%;
-  }
-  
-  div.fp2columnonly {
-    display: none; 
-  }
-  
-  div.fp3columnonly {
-    display: block; 
-  }
-  }
-  
-  .fpbox.plain {
-  border: none;
-  box-shadow: none;
-  background: transparent;
-  }
-  
-  .fpimagelist ul {
-  list-style-type: none;
-  list-style-image: none;
-  }
-  
-  .fpvideos {
-  margin: 0 auto;
-  overflow: hidden;
-  text-align: center;
-  }
-  
-  .fpvideo {
-  display: inline-block;
-  margin: 0 5px;
-  }
-  
-  table .number {
-    text-align: right;
-  } 
 
 /* MsUpload color fixes */
 #upload-list .file {
@@ -593,55 +469,6 @@ table.wikitable td{
 table.wikitable tbody tr th a, table.wikitable tbody tr th b a{
   color:darkblue;
 }
-
-/*****************
-/* Footer styles *
-/*****************/
-div#footer {
-  background-image: none;
-  font-family: Roboto-Regular;
-}
-
-div#footer ul li {
-  color: #ffffff;
-}
-
-div#footer a {
-  color: #b8d5d0;
-  text-shadow: 1px 1px #000000;
-}
-
-div#footer a:hover {
-  color: #39737d;
-}
-
-ul.gallery{
-  background: rgba(0, 0, 0, 0);
-}
-
-li.gallerybox{
-  background-color: rgba(0, 0, 0, 0);
-}
-
-div.gallerytext{
-    color: #65b7cf;
-}
-
-div.thumbinner{
-    background-color: rgb(41, 41, 41);
-    border-color: #65b7cf;
-}
-
-html .thumbimage{
-    background: rgba(0, 0, 0, 0);
-    border: #000000;
-}
-
-.thumbcaption{
-    color: #65b7cf;
-}
-
-
 
 /* -------------------------- */
 /* "ARKITEXURE"-STYLE INFOBOX */
@@ -1079,7 +906,7 @@ table.diff {
 td.diff-context {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
   border-color: #666666;
-  color: #000000;
+  color: #ffffff;
 }
 
 td.diff-deletedline {
@@ -1092,44 +919,6 @@ td.diff-addedline {
   background-color: #A3D3FF;
   border-color: #A3D3FF;
   color: #000000;
-}
-
-/* Preferences */
-.client-js #preftoc {
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 0px;
-}
-
-.client-js #preftoc,
-.client-js #preftoc li,  
-.client-js #preferences, 
-.client-js #preftoc li a {
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0);
-  color: #666666;
-}
-
-.client-js #preftoc li:first-child {
-  margin-bottom: 4px;
-  margin-left: 5px;
-}
-
-.client-js #preftoc li.selected a {
-  background-color: rgba(255, 255, 255, 0.5);
-  background-image: none;
-  border-color: #aaaaaa #aaaaaa rgba(255, 255, 255, 0.5);
-  border-style: solid;
-  border-width: 1px;
-  color: #000000;
-}
-
-.client-js #preferences {
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 1px solid #aaaaaa;
-}
-
-.client-js #preferences fieldset {
-  border-color: #aaaaaa;
 }
 
 /* Infobox style */
@@ -1208,73 +997,6 @@ td.diff-addedline {
   border-left-width: 10px;
 }
 
-.ambox-icon {
-  width: 60px;
-  padding: 2px 0 2px 0.5em;
-  text-align: center;
-}
-
-.ambox-DLC-icon {
-  width: 115px;
-  padding: 2px 0 2px 0.5em;
-  text-align: center;
-}
-
-.ambox-type {
-  padding: 0.25em 0.5em;
-}
-
-.ambox-info {
-  margin-top: 0.5em; font-size: smaller;
-}
-
-.ambox-blue { border-left-color: #0000aa; }
-.ambox-gray { border-left-color: #555555; }
-.ambox-green { border-left-color: #13473f; }
-.ambox-purple { border-left-color: #a655b2; }
-.ambox-red { border-left-color: #aa0000; }
-.ambox-yellow { border-left-color: #aaaa00; }
-
-/* Tabber */
-ul.tabbernav li a:link {
-  font-size: 12px !important;
-  border-radius: 10px 10px 0px 0px;
-  background-color: #ffffe0; /* Old browsers */
-  background: -moz-linear-gradient(#ffffe0, transparent) !important; /* FF3.6-15 */
-  background: -webkit-linear-gradient(#ffffe0, transparent) !important; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(#ffffe0, transparent) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffe0', endColorstr='#fff',GradientType=0 ) !important; /* IE6-9 */
-  color: #0b83ca !important;
-}
-ul.tabbernav li a:hover {
-  background: #ddd !important;
-  color: #0b83ca !important;
-  border-color: #44685e;
-}
-ul.tabbernav li.tabberactive a {
-  font-size: 14px !important;
-  color: #ffffff !important;
-  text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
-  border-color: #0b83ca;
-  border-bottom: 1px solid #c19db8 !important;
-  background: -moz-linear-gradient(#6c68a0, #9e9dc1) !important; /* FF3.6-15 */
-  background: -webkit-linear-gradient(#6c68a0, #9e9dc1) !important; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(#6c68a0, #9e9dc1) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b68a0', endColorstr='#c19db8',GradientType=0 ) !important; /* IE6-9 */
-}
-ul.tabbernav li {
- display:inline-block;
-}
-
-ul.tabber .tabbertab{
-  border: none;
-  padding: 5px;
-}
-
-ul.tabbernav{
-  border:none;
-}
-
 /* Template:Photo */
 .photo-nav, .photo-nav a:link, .photo-nav a:visited{
   color: #ffffff !important;
@@ -1332,77 +1054,6 @@ ul.tabbernav{
   left:0;
   font-size:14px;
   font-weight:bold;
-}
-
-/* Creature Region Map */
-.cr-region-map-map img{
-  filter: sepia(60%);
-}
-.cr-region-map-marker{
-  font-size: 12px;
-  font-weight: bold;
-  position: absolute;
-  border-radius: 2px;
-}
-.cr-region-map-markercave{
-  border: 1px solid black;
-}
-
-.stripes {
- background: repeating-linear-gradient(
-  45deg,
-  transparent,
-  transparent 5px,
-  rgba(0, 0, 0, 0.3) 5px,
-  rgba(0, 0, 0, 0.3) 10px
-  );
-}
-
-.cr-region-map-very-common{
-  -webkit-filter: hue-rotate(120deg) brightness(400%);
-  filter: hue-rotate(120deg) brightness(400%);
-}
-.cr-region-map-common{
-  -webkit-filter: hue-rotate(78deg) brightness(400%);
-  filter: hue-rotate(78deg) brightness(400%);
-}
-.cr-region-map-uncommon{
-  -webkit-filter: hue-rotate(60deg) brightness(400%);
-  filter: hue-rotate(60deg) brightness(400%);
-}
-.cr-region-map-very-uncommon{
-  -webkit-filter: hue-rotate(48deg) brightness(400%);
-  filter: hue-rotate(48deg) brightness(400%);
-}
-.cr-region-map-rare{
-  -webkit-filter: hue-rotate(24deg) brightness(400%);
-  filter: hue-rotate(24deg) brightness(400%);
-}
-.cr-region-map-very-rare{
-  -webkit-filter: hue-rotate(24deg) brightness(400%);
-  filter: hue-rotate(24deg) brightness(400%);    
-}
-
-.cr-region-map-cl-very-common{
-  background-color: hsl(120,100%,60%);
-}
-.cr-region-map-cl-common{
-  background-color: hsl(78,100%,60%);
-}
-.cr-region-map-cl-uncommon{
-  background-color: hsl(60,100%,63.3%);
-}
-.cr-region-map-cl-very-uncommon{
-  background-color: hsl(48,100%,63.3%);
-}
-.cr-region-map-cl-rare{
-  background-color: hsl(30,100%,56.7%);
-}
-.cr-region-map-cl-very-rare{
-  background-color: hsl(0,100%,56.7%);
-}
-.cr-region-map-cl-unknown{
-  background-color: #ccc;
 }
 
 /* Navbox */
@@ -1493,92 +1144,6 @@ kbd:after{
   border-right: 0.1em solid #eee;
   position: relative;
   right: -0.2em;
-}
-
-/* Survival of the Fittest */
-.sotf-team {
-  width: 20%;
-  padding: 1em 1em 0 1em !important;
-  background-color: #9cee93;
-}
-
-.sotf-team-left-dead,
-.sotf-team-right-dead {
-  background-color: #eeed93;
-}
-
-.sotf-team-both-dead {
-  background-color: #e3a4a4;
-}
-
-.sotf-team-both-dead .sotf-image-left,
-.sotf-team-both-dead .sotf-image-right,
-.sotf-team-left-dead .sotf-image-left,
-.sotf-team-right-dead .sotf-image-right {
-  opacity: 0.3;
-}
-
-.sotf-team-both-dead a:first-child,
-.sotf-team-both-dead a:last-child,
-.sotf-team-left-dead a:first-child,
-.sotf-team-right-dead a:last-child {
-  text-decoration: line-through;
-}
-
-.sotf-image-left,
-.sotf-image-right {
-  display: inline-block;
-  width: 74px;
-  height: 74px;
-  border: 1px solid #000000;
-}
-
-.sotf-image-left { background-position: left center; }
-.sotf-image-right { background-position: right center; }
-
-.sotf-team01 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/a/a3/SOTF-mrmoonshouse-sattelizergames.png"); }
-.sotf-team02 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/4/46/SOTF-silentsentry-wishfuiiy.png"); }
-.sotf-team03 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/e/e8/SOTF-esgame-pedrosaltana.png"); }
-.sotf-team04 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/a/ab/SOTF-crasskity-darkness.png"); }
-.sotf-team05 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/9/9d/SOTF-criken-madmorph.png"); }
-.sotf-team06 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/5/57/SOTF-seriousgaming-twoangry.png"); }
-.sotf-team07 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/6/6a/SOTF-pokket-selvek.png"); }
-.sotf-team08 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/6/68/SOTF-bikeman-jonsandman.png"); }
-.sotf-team09 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/3/3d/SOTF-devildog-famou5.png"); }
-.sotf-team10 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/8/80/SOTF-joefudge-sp00n.png"); }
-.sotf-team11 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/b/b8/SOTF-daftb-sixmacs.png"); }
-.sotf-team12 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/5/5b/SOTF-rhino-tangent.png"); }
-.sotf-team13 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/9/96/SOTF-echoics-lirik.png"); }
-.sotf-team14 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/c/cc/SOTF-kongphan-sparrowj.png"); }
-.sotf-team15 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/e/ef/SOTF-shroomz-sl1pg8r.png"); }
-.sotf-team16 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/6/69/SOTF-blizzehd-timmac.png"); }
-.sotf-team17 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/0/00/SOTF-iamsp00n-shannanina.png"); }
-.sotf-team18 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/0/0f/SOTF-apolloz-darkd.png"); }
-.sotf-team19 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/7/7d/SOTF-letsmake-xoves.png"); }
-.sotf-team20 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/a/a3/SOTF-fairlighte-grimmy.png"); }
-.sotf-team21 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/4/4e/SOTF-commander-ragesage.png"); }
-.sotf-team22 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/b/bb/SOTF-jamal-shortyg.png"); }
-.sotf-team23 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/a/aa/SOTF-a51-bedbanana.png"); }
-.sotf-team24 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/9/97/SOTF-cohh-oolala.png"); }
-.sotf-team25 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/e/e2/SOTF-jackf-reno.png"); }
-.sotf-team26 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/1/18/SOTF-shamrok-snipernamedg.png"); }
-.sotf-team27 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/5/56/SOTF-herc-jam.png"); }
-.sotf-team28 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/8/8e/SOTF-starsnipe-tessa.png"); }
-.sotf-team29 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/6/62/SOTF-quan-shyt.png"); }
-.sotf-team30 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/2/2a/SOTF-entak-thad.png"); }
-.sotf-team31 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/0/07/SOTF-kiwion-vaderrp.png"); }
-.sotf-team32 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/7/75/SOTF-ello-sacriel.png"); }
-.sotf-team33 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/c/c7/SOTF-lowco-sadaplays.png"); }
-.sotf-team34 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/9/9d/SOTF-kdwolf-puhdado.png"); }
-.sotf-team35 .sotf-image { background-image: url("//hydra-media.cursecdn.com/ark.gamepedia.com/d/dd/SOTF-illamg-hayli.png"); }
-
-.tournamentlive {
-background-color: #9cee93;
-}
-
-.tournamentdead {
-background-color: #e3a4a4;
-text-decoration: line-through;
 }
 
 /* fake <h2> - looks identical but no edit link and doesn't show up in the ToC */
