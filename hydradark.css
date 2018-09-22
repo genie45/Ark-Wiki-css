@@ -1,0 +1,346 @@
+/* Base framework */
+body {
+  background: url(https://ark.gamepedia.com/media/4/4f/Extinction2.jpg) no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  background-color:#0b1212;
+}
+
+#mw-page-base {
+ background:transparent;
+}
+
+#mw-head-base {
+  height:4.3em;
+}
+
+div#content {
+  position:relative;
+  border:1px solid #7FE7FF;
+  background-color:rgba(4,36,48,0.95);
+  box-shadow:inset 0 0 10px rgba(0,0,0,0.75);
+  color:#88E9FF;
+}
+
+div#content::before {
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  content:"";
+  background:url(https://ark.gamepedia.com/media/b/b7/Hex_grid.png) repeat;
+  z-index:-1;
+  opacity:0.7;
+}
+
+#pageWrapper {
+  margin-right:10px;
+}
+
+div#content table {
+  color:;
+}
+
+div#footer {
+  position:relative;
+  border:1px solid #7FE7FF;
+  background-color:rgba(4,36,48,0.95);
+  box-shadow:inset 0 0 10px rgba(0,0,0,0.75);
+  color:#88E9FF;
+  margin-top:4em;
+  margin-bottom:2em;
+}
+
+div#footer::before {
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  content:"";
+  background:url(https://ark.gamepedia.com/media/b/b7/Hex_grid.png) repeat;
+  z-index:-1;
+  opacity:0.7;
+}
+
+div#footer ul li {
+  color:#88E9FF;
+}
+
+footer {
+  border-top:#f48020 1px solid;
+}
+
+fieldset {
+  border-color:#000;
+}
+
+.oo-ui-panelLayout-framed {
+  border:1px solid #000;
+}
+
+.fpbox {
+  color:#88E9FF;
+}
+/* End base framework */
+
+/* Links */
+#content a,
+div#footer a,
+a:visited,
+div#content a:not(.new),
+div#content a.extiw,
+div#content a.extiw:visited,
+div#content a.external,
+div#content a.external:visited,
+#mw-indicator-mw-helplink a {
+  color: #4FB5FF;
+}
+
+div#content a.new {
+  color:#E51616;
+}
+
+/* End links */
+
+/* Sidebar */
+div#mw-panel div.portal, 
+div#mw-panel div.portal div.body {
+    background-image: none;
+}
+
+div#mw-panel div.portal h3,
+#mw-panel.collapsible-nav .portal h3 a,
+#mw-panel.collapsible-nav .portal h3 a:visited,
+#mw-panel.collapsible-nav div.portal h3 a,
+#mw-panel.collapsible-nav div.portal h3 a:visited,
+#mw-panel.collapsible-nav .portal.collapsed h3 a,
+#mw-panel.collapsible-nav .portal.collapsed h3 a:visited {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.skin-hydradark #mw-panel.collapsible-nav .portal.collapsed h3 {
+    background-image: url("https://commons.gamepedia.com/media/3/37/Sidebar_collapsed.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.skin-hydradark #mw-panel.collapsible-nav .portal h3 {
+    background-image: url("https://commons.gamepedia.com/media/7/72/Sidebar_expanded.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+ 
+div#mw-panel div.portal div.body ul li a,
+div#mw-panel div.portal div.body ul li a:link,
+div#mw-panel div.portal div.body ul li a:visited, 
+div#mw-panel div.portal div.body ul li a:hover {
+    color: #ffffff;
+}
+
+div#mw-panel div#p-socialProfiles.portal .body {
+    margin: auto;
+}
+
+.socialSidebar {
+    width: auto;
+    max-width: 100%;
+}
+
+/* end sidebar */
+
+/* Vector tabs */
+div.vectorTabs {
+  background: none;
+  height:1.6em;
+}
+
+#left-navigation {
+  margin-left:10.75em;
+}
+
+div#mw-head div.vectorTabs ul li a,
+div#mw-head div.vectorTabs ul li.new a,
+h3#p-sharing-label span,
+h3#p-cactions-label span {
+  color:#B1F4F0;
+  font-size:0.8em;
+  font-weight:bold;
+}
+
+div.vectorTabs li span,
+div#mw-head div.vectorMenu h3 {
+  border:1px solid #7FE7FF;
+  border-bottom:0;
+  margin:auto 3px;
+  padding:2px;
+  padding-top:5px;
+  background-color:#0A130F;
+}
+
+div.vectorTabs li.selected span {
+  background-color:#1F5F73;
+}
+
+div.vectorMenu h3 span,
+div.vectorTabs span a {
+  padding-top:0;
+}
+
+div.vectorMenu h3 span {
+  padding-top:0.7em;
+}
+
+div.vectorMenu h3 a {
+  height:1.3em;
+}
+
+h3#p-sharing-label span,
+h3#p-cactions-label span {
+  margin-top:-0.5em;
+}
+
+div.vectorTabs span,
+div#mw-head div.vectorMenu h3 {
+  height:1.3em;
+  background-image:none;
+}
+
+div.vectorTabs span,
+div.vectorTabs ul,
+div.vectorTabs ul li,
+div.vectorTabs ul li.selected   {
+    background: none;
+}
+
+#p-search {
+  margin-right:10px;
+}
+
+div#right-navigation div#simpleSearch {
+  border:1px solid #7FE7FF;
+  border-bottom:0;
+  color:#fff;
+  padding-top:2px;
+  padding-bottom:4.5px;
+}
+
+div#simpleSearch #searchInput {
+  padding-left:10px;
+}
+
+div#simpleSearch #searchInput::placeholder {
+  color:hsla(0,0%,100%,.7);
+}
+
+div.vectorTabs li.mw-watchlink span {
+  padding-top:3px;
+  padding-bottom:4px;
+}
+
+div.vectorMenu div.menu {
+  top:1.15em;
+  padding-top:0.6em;
+  border:0;
+  background:0;
+  margin-left:2px;
+}
+
+#p-cactions div.menu ul {
+  margin-right:2px;
+}
+
+div.vectorMenu div.menu ul,
+div.vectorMenu div.menu div#socialIconImages {
+  border:1px solid #000;
+  background-color: rgba(31,71,61,0.9);
+}
+
+div.vectorMenu div.menu a {
+  color:#F6F6F6;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+div.vectorMenu div.menu li:hover {
+  background-color:rgba(0,0,0,0.2);
+  box-shadow:inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+div.vectorMenu div.menu a:hover {
+  text-decoration:none;
+}
+
+div#p-sharing .menu {
+  margin-left: 20px;
+  min-width: 0px;
+  width: 48px;
+}
+
+div#simpleSearch {
+  margin-top:-0.5em;
+	background: rgba(32,32,32,1);
+}
+
+div#mw-head li#ca-watch a,
+div#mw-head li#ca-unwatch a {
+ padding-top:1.7em;
+ color:transparent
+}
+
+/* End Vector Tabs */
+
+/* Used by Template:Header */
+.header {
+  border-bottom:3px solid #235361;
+  border-image:linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
+  border-radius: 0.3em;
+  text-align: center;
+  color: #88E9FF;
+  font-size: 130%;
+  margin-bottom: 5px;
+  padding: 2px;
+  text-transform:uppercase;
+}
+/*end Template:Header */
+
+/* Tabber */
+ul.tabbernav li a:link {
+   font-size: 12px !important;
+   /*border-radius: 10px 10px 0px 0px;*/
+   background-color: #ffffe0; /* Old browsers */
+   background: -moz-linear-gradient(#ffffe0, transparent) !important; /* FF3.6-15 */
+   background: -webkit-linear-gradient(#ffffe0, transparent) !important; /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(#ffffe0, transparent) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffe0', endColorstr='#fff',GradientType=0 ) !important; /* IE6-9 */
+   color: #397d75 !important;
+}
+ul.tabbernav li a:hover {
+   background: #ddd !important;
+   color: #666666 !important;
+   border-color: #44685e;
+}
+ul.tabbernav li.tabberactive a {
+   color: #ffffff !important;
+   text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
+   border-color: #44685e;
+   border-bottom: 1px solid #9dc1b7 !important;
+   background: -moz-linear-gradient(#68a090, #9dc1b7) !important; /* FF3.6-15 */
+   background: -webkit-linear-gradient(#68a090, #9dc1b7) !important; /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(#68a090, #9dc1b7) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68a090', endColorstr='#9dc1b7',GradientType=0 ) !important; /* IE6-9 */
+}
+ul.tabbernav li a {
+  margin-left: 1px;
+}
+ul.tabbernav li {
+  display:inline-block;
+  margin-top:0.5em;
+}
+
+.tabberNoTabberNav ul.tabbernav{
+ display:none;
+}
+/* end Tabber*/
