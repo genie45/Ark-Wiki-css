@@ -387,14 +387,15 @@ div#mw-head li#ca-unwatch a {
 /* Infobox style */
 .infobox {
 	float: right;
-	width: 23em;
+	width: 24.3em;
 	margin-left: 1em;
-	margin-right: 1em;
+	margin-right: 0em;
 	margin-bottom: 0.5em;
 	padding: 2px;
 	background-color: #0000;
 	border: 1px solid #7FE7FF;
 }
+
 
 .infobox-table {
 	width: 100%;
@@ -739,7 +740,7 @@ ul.tabbernav li {
 }
 
 
-/* Template:Photo     needs to get a new class forthe background styling */
+/* Template:Photo     needs to get a new class for the background styling */
 .photo-nav,
 .photo-nav a:link,
 .photo-nav a:visited {
