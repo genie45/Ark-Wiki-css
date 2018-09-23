@@ -83,7 +83,6 @@ fieldset {
 .fpbox {
 	color: #88E9FF;
 }
-
 /* End base framework */
 
 /* Links */
@@ -102,8 +101,6 @@ div#content a.external:visited,
 div#content a.new {
 	color: #E51616;
 }
-
-
 /* End links */
 
 /* Sidebar */
@@ -150,7 +147,6 @@ div#mw-panel div#p-socialProfiles.portal .body {
 	width: auto;
 	max-width: 100%;
 }
-
 
 /* end sidebar */
 
@@ -293,7 +289,6 @@ div#mw-head li#ca-unwatch a {
 	color: transparent
 }
 
-
 /* End Vector Tabs */
 
 /* Used by Template:Header */
@@ -308,10 +303,7 @@ div#mw-head li#ca-unwatch a {
 	padding: 2px;
 	text-transform: uppercase;
 }
-
 /*end Template:Header */
-
-/*---------------------------------------------------------------------------------*/
 
 /* copy to clipboard */
 .copy-clipboard {
@@ -328,7 +320,6 @@ div#mw-head li#ca-unwatch a {
 	cursor: pointer;
 	font-family: FontAwesome;
 }
-
 
 /* Ambox style */
 .ambox {
@@ -383,7 +374,6 @@ div#mw-head li#ca-unwatch a {
 	border-color: #aaaa00;
 }
 
-
 /* Infobox style */
 .infobox {
 	float: right;
@@ -395,7 +385,6 @@ div#mw-head li#ca-unwatch a {
 	background-color: #0000;
 	border: 1px solid #7FE7FF;
 }
-
 
 .infobox-table {
 	width: 100%;
@@ -447,11 +436,8 @@ div#mw-head li#ca-unwatch a {
 	height: 0.5em;
 }
 
-
 /* -------------------------- */
-
 /* "ARKITEXURE"-STYLE INFOBOX */
-
 /* -------------------------- */
 
 /* arkitexure rounded borders */
@@ -464,7 +450,6 @@ div#mw-head li#ca-unwatch a {
 .info-arkitex-right {
 	float: right;
 }
-
 
 /* arkitexure full container */
 .info-framework {
@@ -479,7 +464,6 @@ div#mw-head li#ca-unwatch a {
 	overflow: hidden;
 }
 
-
 /* arkitexure individual module (sub-container) */
 .info-module {
 	display: inline-block;
@@ -487,14 +471,14 @@ div#mw-head li#ca-unwatch a {
 	width: 402px;
 	max-width: 402px;
 	text-align: right;
-	margin: 0 0 0/*5px*/ 0;
+	margin: 0 0 0/*5px*/
+	0;
 	padding: 4px 4px 0 4px;
 	overflow: hidden;
 	border-bottom: 3px solid #235361;
 	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
 	border-radius: 0.3em;
 }
-
 
 /* arkitexure "sub-module" component */
 .info-unit {
@@ -503,7 +487,8 @@ div#mw-head li#ca-unwatch a {
 	min-width: 402px;
 	max-width: 402px;
 	text-align: center;
-	margin: 0 0 0/*4px*/ 0;
+	margin: 0 0 0/*4px*/
+	0;
 	padding: 0;
 	overflow: hidden;
 }
@@ -528,7 +513,6 @@ div#mw-head li#ca-unwatch a {
 	padding: 0 8px 0 8px !important;
 	background: none !important;
 }
-
 
 /* arkitexure cell, intended for one total column, 100% width */
 .info-X1-100 {
@@ -556,8 +540,6 @@ div#mw-head li#ca-unwatch a {
 	margin: 5px 0 -5px 0;
 }
 
-
-
 /* arkitexure cell, intended for two total columns, 25% width */
 .info-X2-25 {
 	display: flex;
@@ -571,7 +553,8 @@ div#mw-head li#ca-unwatch a {
 	max-height: 40px;
 	margin: 1px;
 	padding: 5px 8px 5px 8px;
-	background: #2d74bea6;;
+	background: #2d74bea6;
+	;
 }
 
 /* arkitexure cell, intended for two total columns, 75% width */
@@ -589,7 +572,6 @@ div#mw-head li#ca-unwatch a {
 	height: auto;
 	font-size: 24px;
 }
-
 
 /* arkitexure cell, intended for two total columns, 40% width */
 .info-X2-40 {
@@ -620,7 +602,6 @@ div#mw-head li#ca-unwatch a {
 	text-align: left;
 }
 
-
 /* arkitexure cell, intended for three total columns, 33% width */
 .info-X3-33 {
 	display: inline-block;
@@ -635,7 +616,6 @@ div#mw-head li#ca-unwatch a {
 	text-align: center;
 }
 
-
 /* arkitexure cell, intended for two total columns, 50% width */
 .info-X2-50 {
 	display: inline-block;
@@ -649,7 +629,6 @@ div#mw-head li#ca-unwatch a {
 	background: #6e92c036;
 	text-align: center;
 }
-
 
 /* END "ARKITEXURE"-STYLE INFOBOX */
 
@@ -670,14 +649,13 @@ div#mw-head li#ca-unwatch a {
 	white-space: nowrap;
 }
 
-
 /* Template:Navbar */
 .va-navbar {
 	position: absolute;
 	padding-left: .5em;
 }
 
-.va-navbar a:link{
+.va-navbar a:link {
 	color: #4FB5FF;
 }
 
@@ -696,14 +674,13 @@ div#mw-head li#ca-unwatch a {
 	border-radius: 100px;
 }
 
-
 /* Tabber */
-.tabber.tabberlive{
+.tabber.tabberlive {
 	overflow: auto;
 	border-color: #7FE7FF;
 }
 
-ul.tabbernav{
+ul.tabbernav {
 	border-color: #7FE7FF;
 }
 
@@ -713,7 +690,8 @@ ul.tabbernav li a:link {
 	color: #88E9FF !important;
 	border-color: #7FE7FF;
 }
-ul.tabbernav li a:hover, ul.tabbernav li.tabberactive a:hover {
+ul.tabbernav li a:hover,
+ul.tabbernav li.tabberactive a:hover {
 	background: #3191b9fc !important;
 	color: #ddd !important;
 	border-color: #7FE7FF;
@@ -735,10 +713,36 @@ ul.tabbernav li {
 	display: none;
 }
 
-.tabber .tabbertab{
+.tabber .tabbertab {
 	border-color: #7FE7FF;
 }
 
+/*Template:Achievement*/
+.achieve_container {
+	text-align: left;
+	margin: .5em 0;
+	border: 1px solid #7FE7FF;
+	background: #6e92c06b;
+	background: -webkit-linear-gradient(#6e92c06b, #828af38c);
+	background: -o-linear-gradient(#6e92c06b, #828af38c);
+	background: -moz-linear-gradient(#6e92c06b, #828af38c);
+	background: linear-gradient(#6e92c06b, #828af38c);
+	color: #88E9FF;
+}
+
+.achieve_body,
+.achieve_name {
+	color: #88E9FF;
+}
+
+/*Template:PaintRegions*/
+td.paintregion {
+	width: 200px;
+	padding-top: 15px !important;
+	vertical-align: top;
+	background: #2d74bea6;
+	color: #88E9FF;
+}
 
 /* Template:Photo     needs to get a new class for the background styling */
 .photo-nav,
@@ -772,9 +776,10 @@ ul.tabbernav li {
 	filter: brightness(120%);
 }
 
-
 /* Tiles (Template:Tile) */
 .tile_container {
+	background-color: #021d31 !important;
+	color: #88E9FF;
 	margin: 4px 0px 8px 8px;
 	padding: 0;
 	position: relative;
@@ -783,12 +788,13 @@ ul.tabbernav li {
 	height: 105px;
 	vertical-align: middle;
 	text-align: center;
-	border: 1px solid black;
-	border-radius: 15px;
+	border: 1px solid #7FE7FF;
 }
 
 .tile_container:hover {
-	background: #fff;
+	background: #3191b9fc;
+	color: #ddd;
+	border-color: #7FE7FF;
 }
 
 .tile_inner {
@@ -798,7 +804,6 @@ ul.tabbernav li {
 	font-size: 14px;
 	font-weight: bold;
 }
-
 
 /* Survivor Profile Table (Template:DTile) */
 .dtile a:link,
