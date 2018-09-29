@@ -254,7 +254,8 @@ div.vectorMenu div.menu {
 div.vectorMenu div.menu ul,
 div.vectorMenu div.menu div#socialIconImages {
 	border: 1px solid #000;
-	background-color: rgba(31, 71, 61, 0.9);
+	color: #88E9FF !important;
+	background-color: #021d31;
 }
 
 div.vectorMenu div.menu a {
@@ -264,7 +265,8 @@ div.vectorMenu div.menu a {
 }
 
 div.vectorMenu div.menu li:hover {
-	background-color: rgba(0, 0, 0, 0.2);
+	background: #3191b9fc !important;
+	color: #ddd !important;
 	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -326,8 +328,7 @@ div#mw-head li#ca-unwatch a {
 	max-width: 80%;
 	margin: 1em auto;
 	background-color: #021d31d6;
-	color: #88E9FF !important;
-	/*seems to be needed cause table is overwriting it otherwise*/
+	color: #88E9FF !important; /*seems to be needed cause table is overwriting it otherwise*/
 	border: 1px dashed;
 	border-collapse: collapse;
 	border-left-style: solid;
@@ -673,7 +674,6 @@ div#mw-head li#ca-unwatch a {
 	background-color: #2d74bea6;
 }
 
-
 /* Tabber */
 .tabber.tabberlive {
 	overflow: auto;
@@ -825,4 +825,9 @@ td.paintregion {
 
 .pointer {
 	cursor: pointer;
+}
+/*ExplorerNote changelog table fix*/
+.explorernot-change-tableend{
+	background: #262729ab !important;
+	color: #88E9FF;
 }
