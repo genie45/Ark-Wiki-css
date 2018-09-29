@@ -721,13 +721,13 @@ ul.tabbernav li {
 .achieve_container {
 	text-align: left;
 	margin: .5em 0;
-	border: 1px solid #7FE7FF;
-	background: #6e92c06b;
-	background: -webkit-linear-gradient(#6e92c06b, #828af38c);
-	background: -o-linear-gradient(#6e92c06b, #828af38c);
-	background: -moz-linear-gradient(#6e92c06b, #828af38c);
-	background: linear-gradient(#6e92c06b, #828af38c);
-	color: #88E9FF;
+	border: 1px solid #7FE7FF !important;
+	background: #6e92c06b !important;
+	background: -webkit-linear-gradient(#6e92c06b, #828af38c) !important;
+	background: -o-linear-gradient(#6e92c06b, #828af38c) !important;
+	background: -moz-linear-gradient(#6e92c06b, #828af38c) !important;
+	background: linear-gradient(#6e92c06b, #828af38c) !important;
+	color: #88E9FF !important;
 }
 
 .achieve_body,
@@ -830,4 +830,22 @@ td.paintregion {
 .explorernot-change-tableend{
 	background: #262729ab !important;
 	color: #88E9FF;
+}
+
+/*Toc styling*/
+div#toc, div.toc,
+div.mw-warning {
+    background-color: #6e92c036;
+    border-color: #7FE7FF;
+}
+
+/*Diff styling*/
+table.diff,
+td.diff-otitle,
+td.diff-ntitle{
+	background: none;
+}
+
+td.diff-context{
+	background-color: #6e92c036;
 }
