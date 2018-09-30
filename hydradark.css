@@ -849,3 +849,37 @@ td.diff-ntitle{
 td.diff-context{
 	background-color: #6e92c036;
 }
+
+/*status effect styling*/
+table.status-effect-backg{
+	text-align:left; 
+	margin-top:-60px; 
+	border: 1px solid #7FE7FF ;
+	background: #6e92c06b ;
+	background: -webkit-linear-gradient(#6e92c06b, #828af38c) ;
+	background: -o-linear-gradient(#6e92c06b, #828af38c) ;
+	background: -moz-linear-gradient(#6e92c06b, #828af38c) ;
+	background: linear-gradient(#6e92c06b, #828af38c) ;
+	color: #88E9FF ;
+}
+
+/* Patch Notes */
+.PN-normal{
+	font-weight: bold;
+	text-align: center;
+	width: 35px;
+}
+
+/*Admin noticeboard header adminlist styling*/
+.adminlist-background{
+	float: right; 
+	width: 300px; 
+	margin-left: 20px; 
+	margin-bottom: 20px; 
+	padding-right: 5px; 
+	padding-left: 5px; 
+	background: #6e92c036; 
+	border: 1px solid #7FE7FF; 
+	font-family: Tahoma, Arial, sans-serif; 
+	font-size: 80%;
+}
