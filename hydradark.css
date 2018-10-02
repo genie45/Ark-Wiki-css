@@ -83,6 +83,7 @@ fieldset {
 .fpbox {
 	color: #88E9FF;
 }
+
 /* End base framework */
 
 /* Links */
@@ -101,6 +102,7 @@ div#content a.external:visited,
 div#content a.new {
 	color: #E51616;
 }
+
 /* End links */
 
 /* Sidebar */
@@ -147,6 +149,7 @@ div#mw-panel div#p-socialProfiles.portal .body {
 	width: auto;
 	max-width: 100%;
 }
+
 
 /* end sidebar */
 
@@ -291,6 +294,7 @@ div#mw-head li#ca-unwatch a {
 	color: transparent
 }
 
+
 /* End Vector Tabs */
 
 /* Used by Template:Header */
@@ -305,6 +309,7 @@ div#mw-head li#ca-unwatch a {
 	padding: 2px;
 	text-transform: uppercase;
 }
+
 /*end Template:Header */
 
 /* copy to clipboard */
@@ -323,12 +328,14 @@ div#mw-head li#ca-unwatch a {
 	font-family: FontAwesome;
 }
 
+
 /* Ambox style */
 .ambox {
 	max-width: 80%;
 	margin: 1em auto;
 	background-color: #021d31d6;
-	color: #88E9FF !important; /*seems to be needed cause table is overwriting it otherwise*/
+	color: #88E9FF !important;
+	/*seems to be needed cause table is overwriting it otherwise*/
 	border: 1px dashed;
 	border-collapse: collapse;
 	border-left-style: solid;
@@ -374,6 +381,7 @@ div#mw-head li#ca-unwatch a {
 .ambox-yellow {
 	border-color: #aaaa00;
 }
+
 
 /* Infobox style */
 .infobox {
@@ -437,8 +445,11 @@ div#mw-head li#ca-unwatch a {
 	height: 0.5em;
 }
 
+
 /* -------------------------- */
+
 /* "ARKITEXURE"-STYLE INFOBOX */
+
 /* -------------------------- */
 
 /* arkitexure rounded borders */
@@ -452,6 +463,7 @@ div#mw-head li#ca-unwatch a {
 	float: right;
 }
 
+
 /* arkitexure full container */
 .info-framework {
 	float: right;
@@ -464,6 +476,7 @@ div#mw-head li#ca-unwatch a {
 	padding: 5px 5px 0 5px;
 	overflow: hidden;
 }
+
 
 /* arkitexure individual module (sub-container) */
 .info-module {
@@ -480,6 +493,7 @@ div#mw-head li#ca-unwatch a {
 	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
 	border-radius: 0.3em;
 }
+
 
 /* arkitexure "sub-module" component */
 .info-unit {
@@ -515,6 +529,7 @@ div#mw-head li#ca-unwatch a {
 	background: none !important;
 }
 
+
 /* arkitexure cell, intended for one total column, 100% width */
 .info-X1-100 {
 	display: inline-block;
@@ -541,6 +556,7 @@ div#mw-head li#ca-unwatch a {
 	margin: 5px 0 -5px 0;
 }
 
+
 /* arkitexure cell, intended for two total columns, 25% width */
 .info-X2-25 {
 	display: flex;
@@ -558,6 +574,7 @@ div#mw-head li#ca-unwatch a {
 	;
 }
 
+
 /* arkitexure cell, intended for two total columns, 75% width */
 .info-X2-75 {
 	display: flex;
@@ -574,6 +591,7 @@ div#mw-head li#ca-unwatch a {
 	font-size: 24px;
 }
 
+
 /* arkitexure cell, intended for two total columns, 40% width */
 .info-X2-40 {
 	display: inline-block;
@@ -589,6 +607,7 @@ div#mw-head li#ca-unwatch a {
 	text-align: right;
 }
 
+
 /* arkitexure cell, intended for two total columns, 60% width */
 .info-X2-60 {
 	display: inline-block;
@@ -602,6 +621,7 @@ div#mw-head li#ca-unwatch a {
 	background: #6e92c036;
 	text-align: left;
 }
+
 
 /* arkitexure cell, intended for three total columns, 33% width */
 .info-X3-33 {
@@ -617,6 +637,7 @@ div#mw-head li#ca-unwatch a {
 	text-align: center;
 }
 
+
 /* arkitexure cell, intended for two total columns, 50% width */
 .info-X2-50 {
 	display: inline-block;
@@ -630,6 +651,7 @@ div#mw-head li#ca-unwatch a {
 	background: #6e92c036;
 	text-align: center;
 }
+
 
 /* END "ARKITEXURE"-STYLE INFOBOX */
 
@@ -650,6 +672,7 @@ div#mw-head li#ca-unwatch a {
 	white-space: nowrap;
 }
 
+
 /* Template:Navbar */
 .va-navbar {
 	position: absolute;
@@ -659,6 +682,7 @@ div#mw-head li#ca-unwatch a {
 .va-navbar a:link {
 	color: #4FB5FF;
 }
+
 
 /* NavBox Creatures */
 .navbox-creature-item {
@@ -673,6 +697,7 @@ div#mw-head li#ca-unwatch a {
 .navbox-creature-item div {
 	background-color: #2d74bea6;
 }
+
 
 /* Tabber */
 .tabber.tabberlive {
@@ -717,6 +742,7 @@ ul.tabbernav li {
 	border-color: #7FE7FF;
 }
 
+
 /*Template:Achievement*/
 .achieve_container {
 	text-align: left;
@@ -735,6 +761,7 @@ ul.tabbernav li {
 	color: #88E9FF;
 }
 
+
 /*Template:PaintRegions*/
 td.paintregion {
 	width: 200px;
@@ -744,37 +771,8 @@ td.paintregion {
 	color: #88E9FF;
 }
 
-/* Template:Photo     needs to get a new class for the background styling */
-.photo-nav,
-.photo-nav a:link,
-.photo-nav a:visited {
-	color: #fff !important;
-	font-weight: bold;
-	text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
-}
 
-.photo-gallery,
-.photo-gallery a:link,
-.photo-gallery a:visited {
-	color: #000 !important;
-}
 
-.photo-gallery img {
-	-webkit-filter: opacity(.8);
-	filter: opacity(.8);
-	opacity(.9);
-}
-
-.photo-gallery img:hover {
-	-webkit-filter: opacity(1);
-	filter: opacity(1);
-	opacity(1);
-}
-
-.photo-nav li:hover img {
-	-webkit-filter: brightness(120%);
-	filter: brightness(120%);
-}
 
 /* Tiles (Template:Tile) */
 .tile_container {
@@ -805,6 +803,7 @@ td.paintregion {
 	font-weight: bold;
 }
 
+
 /* Survivor Profile Table (Template:DTile) */
 .dtile a:link,
 .dtile a:visited,
@@ -826,60 +825,109 @@ td.paintregion {
 .pointer {
 	cursor: pointer;
 }
+
 /*ExplorerNote changelog table fix*/
-.explorernot-change-tableend{
+.explorernot-change-tableend {
 	background: #262729ab !important;
 	color: #88E9FF;
 }
 
+
 /*Toc styling*/
-div#toc, div.toc,
+div#toc,
+div.toc,
 div.mw-warning {
-    background-color: #6e92c036;
-    border-color: #7FE7FF;
+	background-color: #6e92c036;
+	border-color: #7FE7FF;
 }
+
 
 /*Diff styling*/
 table.diff,
 td.diff-otitle,
-td.diff-ntitle{
+td.diff-ntitle {
 	background: none;
 }
 
-td.diff-context{
+td.diff-context {
 	background-color: #6e92c036;
 }
 
+
 /*status effect styling*/
-table.status-effect-backg{
-	text-align:left; 
-	margin-top:-60px; 
-	border: 1px solid #7FE7FF ;
-	background: #6e92c06b ;
-	background: -webkit-linear-gradient(#6e92c06b, #828af38c) ;
-	background: -o-linear-gradient(#6e92c06b, #828af38c) ;
-	background: -moz-linear-gradient(#6e92c06b, #828af38c) ;
-	background: linear-gradient(#6e92c06b, #828af38c) ;
-	color: #88E9FF ;
+table.status-effect-backg {
+	text-align: left;
+	margin-top: -60px;
+	border: 1px solid #7FE7FF;
+	background: #6e92c06b;
+	background: -webkit-linear-gradient(#6e92c06b, #828af38c);
+	background: -o-linear-gradient(#6e92c06b, #828af38c);
+	background: -moz-linear-gradient(#6e92c06b, #828af38c);
+	background: linear-gradient(#6e92c06b, #828af38c);
+	color: #88E9FF;
 }
 
+
 /* Patch Notes */
-.PN-normal{
+.PN-normal {
 	font-weight: bold;
 	text-align: center;
 	width: 35px;
 }
 
-/*Admin noticeboard header adminlist styling*/
-.adminlist-background{
-	float: right; 
-	width: 300px; 
-	margin-left: 20px; 
-	margin-bottom: 20px; 
-	padding-right: 5px; 
-	padding-left: 5px; 
-	background: #6e92c036; 
-	border: 1px solid #7FE7FF; 
-	font-family: Tahoma, Arial, sans-serif; 
-	font-size: 80%;
+
+/* Template:Photo*/
+.photo-nav,
+.photo-nav a:link,
+.photo-nav a:visited {
+	color: black !important;
+	font-weight: bold;
+	text-shadow: 1px 1px 4px #404040d1, 0 0 1em teal, 0 0 0.2em black;
+}
+
+.photo-gallery,
+.photo-gallery a:link,
+.photo-gallery a:visited {
+	color: #000 !important;
+}
+
+.photo-gallery img {
+	-webkit-filter: opacity(.8);
+	filter: opacity(.8);
+	opacity(.9);
+}
+
+.photo-gallery img:hover {
+	-webkit-filter: opacity(1);
+	filter: opacity(1);
+	opacity(1);
+}
+
+.photo-nav li:hover img {
+	-webkit-filter: brightness(120%);
+	filter: brightness(120%);
+}
+
+li.photo-bg {
+	margin: 8px 6px;
+	padding: 5px;
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	min-height: 152px;
+	vertical-align: top;
+	text-align: center;
+	background: #c4c4c4;
+	border: 1px solid #b7b7b7;
+	box-shadow: 0 0 8px #333;
+	/* For IE 7 */
+	zoom: 1;
+	*display: inline;
+}
+
+div.photo-text {
+	position: relative;
+	top: 4px;
+	padding: 6px 0 6px 0;
+	font-size: 16px;
 }
