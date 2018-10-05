@@ -935,3 +935,31 @@ div.photo-text {
 .redish-background{
 	background-color:#cf4c4c8a;
 }
+
+/*Template:Dossier*/
+table.dossier-background{
+	background:#6e92c036;
+	border:2px solid #2d74bea6;
+	border-radius:0.5em;
+	border-left-width:1em;
+	color:#88E9FF !important;
+}
+.dossier-cite-left{
+	color: #2d74bed9;
+	font-size: 3.3em; 
+	font-family: 'Times New Roman',serif; 
+	font-weight: bold; 
+	padding: 4px 2px 2px; 
+	width: 0.5em; 
+	vertical-align: top;
+}
+
+.dossier-cite-right{
+	color: #2d74bed9;
+	font-size: 3.3em; 
+	font-family: 'Times New Roman',serif; 
+	font-weight: bold; 
+	padding: 4px 2px 2px; 
+	width: 0.5em; 
+	vertical-align: bottom;
+}
