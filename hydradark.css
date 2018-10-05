@@ -936,7 +936,7 @@ div.photo-text {
 	background-color:#cf4c4c8a;
 }
 
-/*Template:Dossier*/
+/*Template:Dossier & Template:Quote*/
 table.dossier-background{
 	background:#6e92c036;
 	border:2px solid #2d74bea6;
@@ -944,7 +944,7 @@ table.dossier-background{
 	border-left-width:1em;
 	color:#88E9FF !important;
 }
-.dossier-cite-left{
+.dossier-cite-left, .quote-left{
 	color: #2d74bed9;
 	font-size: 3.3em; 
 	font-family: 'Times New Roman',serif; 
@@ -954,7 +954,7 @@ table.dossier-background{
 	vertical-align: top;
 }
 
-.dossier-cite-right{
+.dossier-cite-right, .quote-right{
 	color: #2d74bed9;
 	font-size: 3.3em; 
 	font-family: 'Times New Roman',serif; 
@@ -962,4 +962,20 @@ table.dossier-background{
 	padding: 4px 2px 2px; 
 	width: 0.5em; 
 	vertical-align: bottom;
+}
+
+/*Template:Explorer Note*/
+.explorer-note{
+	display:inline-block;
+	vertical-align:top;
+	width:47%;
+	margin:1em;
+	color: #88E9FF !important;
+}
+
+.explorer-note-main{
+	border:2px solid #2d74bea6;
+	border-radius:0.25em;
+	border-left-width:1em;
+	background: #00000040
 }
