@@ -979,3 +979,32 @@ table.dossier-background{
 	border-left-width:1em;
 	background: #00000040
 }
+
+/*MapStyles override*/
+.notice{
+	border: 1px dashed #7FE7FF !important;
+	background: #6e92c06b !important;
+	background: -webkit-linear-gradient(#6e92c06b, #828af38c) !important;
+	background: -o-linear-gradient(#6e92c06b, #828af38c) !important;
+	background: -moz-linear-gradient(#6e92c06b, #828af38c) !important;
+	background: linear-gradient(#6e92c06b, #828af38c) !important;
+	color: #88E9FF !important;
+}
+
+td.top-notice-text{
+	color: #88E9FF !important;
+}
+
+div.full-container{
+	background: #6e92c036 !important;
+	border: 2px solid #2d74bea6 !important; 
+}
+
+.map-legend input[type=checkbox] + label {
+  color: #b70303 !important;
+  text-shadow: 0 0 0.3em darkred !important;
+}
+.map-legend input[type=checkbox]:checked + label {
+  color: #05bb25 !important;
+  text-shadow: 0 0 0.3em darkgreen !important;
+}
