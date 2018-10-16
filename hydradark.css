@@ -882,7 +882,7 @@ table.status-effect-backg {
 .photo-nav a:visited {
 	color: black !important;
 	font-weight: bold;
-	text-shadow: 1px 1px 4px #404040d1, 0 0 1em teal, 0 0 0.2em black;
+	text-shadow: 1px 1px 4px #fff, 0 0 1em #fff, 0 0 0.2em #fff;
 }
 
 .photo-gallery,
@@ -1007,4 +1007,17 @@ div.full-container{
 .map-legend input[type=checkbox]:checked + label {
   color: #05bb25 !important;
   text-shadow: 0 0 0.3em darkgreen !important;
+}
+
+/*styling for kibble tables*/
+.kibble-table{
+	text-align: center;
+	font-size: .9em;
+	border-left: solid #2d74bea6;
+	border-left-width: 0.5em ;
+	border-bottom: solid #2d74bea6;
+	border-bottom-width: 0.5em;
+	background-color: #6e92c036;
+	float: left;
+	margin: 0 .5em .5em 0;
 }
