@@ -747,7 +747,7 @@ ul.tabbernav {
 
 ul.tabbernav li a:link {
 	font-size: 12px !important;
-	background-color: #021d31;
+	background-color: #021d31 !important;
 	color: #88E9FF !important;
 	border-color: #7FE7FF;
 }
@@ -764,6 +764,9 @@ ul.tabbernav li.tabberactive a {
 }
 ul.tabbernav li a {
 	margin-left: 1px;
+	background-color: #021d31 !important;
+	color: #88E9FF !important;
+	border-color: #7FE7FF;
 }
 ul.tabbernav li {
 	display: inline-block;
