@@ -1447,3 +1447,10 @@ div.full-container{
 .cell-pink {
   background-color:#7F0000 !important;
 }
+
+.ctc-notice{
+	display:inline-block; 
+	border:1px dashed yellow; 
+	background:#0000007a; 
+	padding:10px;"
+}
